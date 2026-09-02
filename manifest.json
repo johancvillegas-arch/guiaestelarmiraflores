@@ -1,0 +1,32 @@
+{
+  "name": "Mapa Turístico de Miraflores y Centro de Lima · Eco Estelar",
+  "short_name": "Eco Estelar",
+  "description": "Guía interactiva sostenible del Hotel Estelar Miraflores",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0F2447",
+  "background_color": "#0F2447",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icons/custom/isotipo-estelar.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/custom/isotipo-estelar.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/custom/isotipo-estelar.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "navigation", "lifestyle"]
+}

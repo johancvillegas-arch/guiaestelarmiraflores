@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0F2447">
+  <meta name="description" content="Guía interactiva sostenible del Hotel Estelar Miraflores">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Mapa Turístico de Miraflores y Centro de Lima · Eco Estelar</title>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="icons/custom/isotipo-estelar.png">
+  <link rel="apple-touch-icon" href="icons/custom/isotipo-estelar.png">
+
+  <link rel="stylesheet" href="lib/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Pantalla de carga -->
+  <div id="loading">
+    <div class="loading-content">
+      <div class="loading-star">
+        <img src="icons/custom/isotipo-estelar.png" style="width:72px;height:72px;object-fit:contain" alt="Estelar">
+      </div>
+      <p>Cargando Guía Estelar…</p>
+    </div>
+  </div>
+
+  <div id="app">
+
+    <!-- Encabezado -->
+    <header id="header">
+      <div class="header-left">
+        <img src="icons/custom/isotipo-estelar.png" class="header-star" style="width:32px;height:32px;object-fit:contain" alt="Estelar">
+        <div class="header-title">
+          <h1 id="app-title">Mapa Turístico de Miraflores y Centro de Lima · Eco Estelar</h1>
+          <span id="app-subtitle">Miraflores · Lima, Perú</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <button id="lang-toggle" aria-label="Switch language">EN</button>
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" placeholder="Buscar lugar…" autocomplete="off" autocorrect="off">
+          <button id="search-clear" class="search-clear hidden" aria-label="Limpiar búsqueda">✕</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Tabs de zona -->
+    <nav id="zona-tabs">
+      <button class="zona-tab active" data-zona="miraflores">Miraflores</button>
+      <button class="zona-tab" data-zona="centro">Centro Histórico</button>
+      <button class="zona-tab" data-zona="tours">Tours Lima</button>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main id="main">
+
+      <!-- Barra lateral de categorías -->
+      <aside id="sidebar">
+        <div class="sidebar-inner">
+          <button class="category-btn active" data-category="all">
+            <span class="cat-emoji">🗺️</span>
+            <span class="cat-label">Todos</span>
+          </button>
+          <div id="categories-list"></div>
+        </div>
+      </aside>
+
+      <!-- Mapa -->
+      <div id="map" role="application" aria-label="Mapa interactivo de Miraflores"></div>
+
+    </main>
+  </div>
+
+  <!-- Panel de detalle (desliza desde abajo) -->
+  <div id="detail-panel" class="hidden" role="dialog" aria-label="Detalle del lugar">
+    <div class="panel-handle"></div>
+    <button id="panel-close" aria-label="Cerrar panel">✕</button>
+    <div id="panel-content"></div>
+  </div>
+
+  <!-- Overlay oscuro -->
+  <div id="overlay" class="hidden"></div>
+
+  <script src="lib/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
