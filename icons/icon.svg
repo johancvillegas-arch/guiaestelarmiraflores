@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fondo con esquinas redondeadas -->
+  <rect width="512" height="512" rx="90" fill="#0F2447"/>
+  <!-- Borde dorado suave -->
+  <rect x="12" y="12" width="488" height="488" rx="80" fill="none"
+        stroke="#C9A84C" stroke-width="18" opacity="0.6"/>
+  <!-- Estrella de 5 puntas centrada -->
+  <polygon
+    points="256,76 298,198 427,200 325,278 362,402 256,328 150,402 188,278 85,200 214,198"
+    fill="#C9A84C"
+    stroke="#E8C56A"
+    stroke-width="8"
+    stroke-linejoin="round"/>
+</svg>
