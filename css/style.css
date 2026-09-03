@@ -168,6 +168,8 @@ html, body {
   flex-shrink: 0;
 }
 .zona-tab {
+  display: inline-flex;
+  align-items: center;
   padding: 0.5rem 1.2rem;
   border: none;
   border-bottom: 3px solid transparent;
@@ -175,10 +177,14 @@ html, body {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.85rem;
   font-weight: 600;
+  text-decoration: none;
   cursor: pointer;
   letter-spacing: 0.02em;
   transition: color var(--transition), border-color var(--transition), background var(--transition);
   border-radius: 6px 6px 0 0;
+}
+.zona-tab--pdf {
+  margin-left: auto;
 }
 .zona-tab:hover:not(.active) {
   color: rgba(255, 255, 255, 0.85);
