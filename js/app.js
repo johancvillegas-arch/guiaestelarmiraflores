@@ -104,11 +104,22 @@ function initMap() {
     zoomControl: false,
   });
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    subdomains: 'abc',
-    maxZoom: 19,
-  }).addTo(map);
+  const attribution = '<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> · © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors';
+
+  if (typeof L.maplibreGL === 'function') {
+    L.maplibreGL({
+      style: 'https://tiles.openfreemap.org/styles/positron',
+      attribution,
+    }).addTo(map);
+  } else {
+    // Respaldo si MapLibre GL no cargó (p. ej. sin conexión al CDN)
+    console.warn('[GuiaEstelar] MapLibre GL no disponible, usando teselas OSM estándar.');
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      subdomains: 'abc',
+      maxZoom: 19,
+    }).addTo(map);
+  }
 
   L.control.zoom({ position: 'topright' }).addTo(map);
 }
