@@ -1,4 +1,4 @@
-const CACHE = 'guia-estelar-v2';
+const CACHE = 'guia-estelar-v3';
 
 const PRECACHE = [
   '/',
@@ -37,23 +37,20 @@ self.addEventListener('activate', event => {
   self.clients.claim();
 });
 
-// Fetch: servir desde cache; actualizar cache en segundo plano
+// Fetch: red primero (para no servir versiones viejas cacheadas); si no hay
+// conexión, se cae al caché para que la app funcione offline.
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
 
   event.respondWith(
-    caches.match(event.request).then(cached => {
-      const networkFetch = fetch(event.request)
-        .then(response => {
-          if (response && response.status === 200) {
-            const clone = response.clone();
-            caches.open(CACHE).then(cache => cache.put(event.request, clone));
-          }
-          return response;
-        })
-        .catch(() => cached);   // Sin red: devolver caché si existe
-
-      return cached || networkFetch;
-    })
+    fetch(event.request)
+      .then(response => {
+        if (response && response.status === 200) {
+          const clone = response.clone();
+          caches.open(CACHE).then(cache => cache.put(event.request, clone));
+        }
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });
