@@ -6,26 +6,95 @@
     "address": "Av. Petit Thouars 5444, Miraflores, Lima",
     "phone": "+51 1 611 9000"
   },
-
   "categories": [
-    { "id": "estelar",       "label": "Nuestros Hoteles", "emoji": "⭐", "iconImg": "icons/custom/isotipo-estelar.png", "color": "#0F2447" },
-    { "id": "restaurantes",  "label": "Restaurantes",   "emoji": "🍽️", "color": "#c0392b" },
-    { "id": "cafes",         "label": "Cafés",          "emoji": "☕",  "color": "#7B4F2E" },
-    { "id": "compras",       "label": "Compras",        "emoji": "🛍️", "color": "#8e44ad" },
-    { "id": "parques",       "label": "Parques",        "emoji": "🌳",  "color": "#27ae60" },
-    { "id": "ecoestelar",    "label": "EcoEstelar",     "emoji": "🌿",  "color": "#2d6a4f", "colorAlt": "#52b788" },
-    { "id": "bancos",        "label": "Bancos / ATM",   "emoji": "💰",  "color": "#2471a3" },
-    { "id": "supermercados", "label": "Supermercados",  "emoji": "🛒",  "color": "#d35400" },
-    { "id": "turismo",       "label": "Turismo",        "emoji": "🧭",  "color": "#16a085" },
-    { "id": "gastronomia",   "label": "Gastronomía",    "emoji": "🍜",  "color": "#c0392b" },
-    { "id": "cultura",       "label": "Cultura",        "emoji": "🎭",  "color": "#8e44ad" },
-    { "id": "mercados",      "label": "Mercados",       "emoji": "🏪",  "color": "#e67e22" },
-    { "id": "hospitales",    "label": "Hospitales",     "emoji": "🏥",  "color": "#2980b9" },
-    { "id": "tours",         "label": "Tours Lima",     "emoji": "🎫",  "color": "#7d3c98" }
+    {
+      "id": "estelar",
+      "label": "Nuestros Hoteles",
+      "emoji": "⭐",
+      "iconImg": "icons/custom/isotipo-estelar.png",
+      "color": "#0F2447"
+    },
+    {
+      "id": "restaurantes",
+      "label": "Restaurantes",
+      "emoji": "🍽️",
+      "color": "#c0392b"
+    },
+    {
+      "id": "cafes",
+      "label": "Cafés",
+      "emoji": "☕",
+      "color": "#7B4F2E"
+    },
+    {
+      "id": "compras",
+      "label": "Compras",
+      "emoji": "🛍️",
+      "color": "#8e44ad"
+    },
+    {
+      "id": "parques",
+      "label": "Parques",
+      "emoji": "🌳",
+      "color": "#27ae60"
+    },
+    {
+      "id": "ecoestelar",
+      "label": "EcoEstelar",
+      "emoji": "🌿",
+      "color": "#2d6a4f",
+      "colorAlt": "#52b788"
+    },
+    {
+      "id": "bancos",
+      "label": "Bancos / ATM",
+      "emoji": "💰",
+      "color": "#2471a3"
+    },
+    {
+      "id": "supermercados",
+      "label": "Supermercados",
+      "emoji": "🛒",
+      "color": "#d35400"
+    },
+    {
+      "id": "turismo",
+      "label": "Turismo",
+      "emoji": "🧭",
+      "color": "#16a085"
+    },
+    {
+      "id": "gastronomia",
+      "label": "Gastronomía",
+      "emoji": "🍜",
+      "color": "#c0392b"
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura",
+      "emoji": "🎭",
+      "color": "#8e44ad"
+    },
+    {
+      "id": "mercados",
+      "label": "Mercados",
+      "emoji": "🏪",
+      "color": "#e67e22"
+    },
+    {
+      "id": "hospitales",
+      "label": "Hospitales",
+      "emoji": "🏥",
+      "color": "#2980b9"
+    },
+    {
+      "id": "tours",
+      "label": "Tours Lima",
+      "emoji": "🎫",
+      "color": "#7d3c98"
+    }
   ],
-
   "places": [
-
     {
       "id": 50,
       "name": "McDonald's",
@@ -36,7 +105,10 @@
       "hours": "Lun–Dom: 7:00 – 00:00",
       "rating": 3.8,
       "description": "Sucursal McDonald's en Miraflores. Opción rápida con menú estándar internacional.",
-      "tip": "Disponible para pedidos por app. Útil si necesitas algo rápido o familiar para los más pequeños."
+      "tip": "Disponible para pedidos por app. Útil si necesitas algo rápido o familiar para los más pequeños.",
+      "hours_en": "Mon–Sun: 7:00 AM – 12:00 AM",
+      "description_en": "McDonald's branch in Miraflores. Quick option with a standard international menu.",
+      "tip_en": "Available for app orders. Handy if you need something quick or kid-friendly."
     },
     {
       "id": 51,
@@ -48,7 +120,10 @@
       "hours": "Lun–Dom: 8:00 – 23:00",
       "rating": 4.5,
       "description": "Icónica sanguchería peruana famosa por sus sánguches de chicharrón, butifarra y pan artesanal recién horneado.",
-      "tip": "El sánguche de chicharrón con camote y salsa criolla es el clásico. Las colas pueden ser largas; vale completamente la pena la espera."
+      "tip": "El sánguche de chicharrón con camote y salsa criolla es el clásico. Las colas pueden ser largas; vale completamente la pena la espera.",
+      "hours_en": "Mon–Sun: 8:00 AM – 11:00 PM",
+      "description_en": "Iconic Peruvian sandwich shop famous for its chicharrón and butifarra sandwiches on freshly baked artisan bread.",
+      "tip_en": "The chicharrón sandwich with sweet potato and creole sauce is the classic order. Lines can be long — it's completely worth the wait."
     },
     {
       "id": 52,
@@ -60,7 +135,10 @@
       "hours": "Lun–Dom: 8:00 – 23:00",
       "rating": 4.5,
       "description": "Icónica sanguchería peruana famosa por sus sánguches de chicharrón, butifarra y pan artesanal recién horneado.",
-      "tip": "El sánguche de chicharrón con camote y salsa criolla es el clásico. Las colas pueden ser largas; vale completamente la pena la espera."
+      "tip": "El sánguche de chicharrón con camote y salsa criolla es el clásico. Las colas pueden ser largas; vale completamente la pena la espera.",
+      "hours_en": "Mon–Sun: 8:00 AM – 11:00 PM",
+      "description_en": "Iconic Peruvian sandwich shop famous for its chicharrón and butifarra sandwiches on freshly baked artisan bread.",
+      "tip_en": "The chicharrón sandwich with sweet potato and creole sauce is the classic order. Lines can be long — it's completely worth the wait."
     },
     {
       "id": 53,
@@ -72,20 +150,25 @@
       "hours": "Lun–Dom: 8:00 – 23:00",
       "rating": 4.5,
       "description": "Icónica sanguchería peruana famosa por sus sánguches de chicharrón, butifarra y pan artesanal recién horneado.",
-      "tip": "El sánguche de chicharrón con camote y salsa criolla es el clásico. Las colas pueden ser largas; vale completamente la pena la espera."
+      "tip": "El sánguche de chicharrón con camote y salsa criolla es el clásico. Las colas pueden ser largas; vale completamente la pena la espera.",
+      "hours_en": "Mon–Sun: 8:00 AM – 11:00 PM",
+      "description_en": "Iconic Peruvian sandwich shop famous for its chicharrón and butifarra sandwiches on freshly baked artisan bread.",
+      "tip_en": "The chicharrón sandwich with sweet potato and creole sauce is the classic order. Lines can be long — it's completely worth the wait."
     },
-
     {
       "id": 38,
       "name": "Punto Azul",
       "category": "restaurantes",
-      "lat": -12.125950,
-      "lng": -77.028180,
+      "lat": -12.12595,
+      "lng": -77.02818,
       "address": "Av. Petit Thouars, Miraflores",
       "hours": "Lun–Dom: 12:00 – 17:00",
       "rating": 4.6,
       "description": "Cebichería tradicional limeña con excelente relación calidad-precio. Especialidad en cebiches, tiraditos y arroces con mariscos.",
-      "tip": "Muy concurrido al mediodía; llegar antes de la 1 pm. El cebiche mixto y el arroz con mariscos son los más pedidos. Solo almuerzo."
+      "tip": "Muy concurrido al mediodía; llegar antes de la 1 pm. El cebiche mixto y el arroz con mariscos son los más pedidos. Solo almuerzo.",
+      "hours_en": "Mon–Sun: 12:00 – 5:00 PM",
+      "description_en": "Traditional Lima cevichería with excellent value for money. Specializes in ceviche, tiradito and seafood rice dishes.",
+      "tip_en": "Very busy at midday; arrive before 1 pm. The mixed ceviche and seafood rice are the most popular dishes. Lunch only."
     },
     {
       "id": 39,
@@ -97,19 +180,25 @@
       "hours": "Mar–Sáb: 13:00 – 15:30 y 19:30 – 23:00",
       "rating": 4.9,
       "description": "Cocina nikkei del chef Mitsuharu Tsumura. #1 en Los 50 Mejores Restaurantes del Mundo 2025. Una experiencia gastronómica única entre lo peruano y lo japonés.",
-      "tip": "Reserva con semanas de anticipación. El menú de almuerzo es más accesible que la degustación de noche. No dejes de probar el nigiri nikkei."
+      "tip": "Reserva con semanas de anticipación. El menú de almuerzo es más accesible que la degustación de noche. No dejes de probar el nigiri nikkei.",
+      "hours_en": "Tue–Sat: 1:00 – 3:30 PM & 7:30 – 11:00 PM",
+      "description_en": "Nikkei cuisine by chef Mitsuharu Tsumura. Ranked #1 on The World's 50 Best Restaurants 2025. A one-of-a-kind dining experience blending Peruvian and Japanese flavors.",
+      "tip_en": "Book weeks in advance. The lunch tasting menu is more affordable than the dinner one. Don't miss the nikkei nigiri."
     },
     {
       "id": 40,
       "name": "Restaurante Huaca Pucllana",
       "category": "restaurantes",
       "lat": -12.111085,
-      "lng": -77.033260,
+      "lng": -77.03326,
       "address": "Gral. Borgoño Cdra. 8, Miraflores",
       "hours": "Lun–Dom: 12:00 – 00:00",
       "rating": 4.5,
       "description": "Restaurante de cocina peruana contemporánea con vista directa a la pirámide de la Huaca Pucllana iluminada de noche. Ambiente único e irrepetible.",
-      "tip": "Reservar mesa con vista a la Huaca para cenar. De noche la pirámide se ilumina y el espectáculo es impresionante. Ideal para una ocasión especial."
+      "tip": "Reservar mesa con vista a la Huaca para cenar. De noche la pirámide se ilumina y el espectáculo es impresionante. Ideal para una ocasión especial.",
+      "hours_en": "Mon–Sun: 12:00 PM – 12:00 AM",
+      "description_en": "Contemporary Peruvian restaurant with a direct view of the Huaca Pucllana pyramid, lit up at night. A truly unique setting.",
+      "tip_en": "Book a table with a view of the Huaca for dinner. The pyramid is illuminated at night — the effect is stunning. Ideal for a special occasion."
     },
     {
       "id": 41,
@@ -121,19 +210,25 @@
       "hours": "Lun–Dom: 12:00 – 23:00",
       "rating": 4.3,
       "description": "Cadena peruana de pollos a la brasa y parrillas. Opción familiar con buena relación calidad-precio, amplia carta y ambiente animado.",
-      "tip": "El pollo a la brasa con papas fritas y ensalada es el clásico. Buena opción para grupos o familias. Aceptan tarjeta."
+      "tip": "El pollo a la brasa con papas fritas y ensalada es el clásico. Buena opción para grupos o familias. Aceptan tarjeta.",
+      "hours_en": "Mon–Sun: 12:00 PM – 11:00 PM",
+      "description_en": "Peruvian chain specializing in rotisserie chicken and grilled meats. A family-friendly option with good value, a wide menu and a lively atmosphere.",
+      "tip_en": "Rotisserie chicken with fries and salad is the classic order. A good choice for groups or families. Cards accepted."
     },
     {
       "id": 42,
       "name": "Rafael",
       "category": "restaurantes",
       "lat": -12.125256,
-      "lng": -77.031360,
+      "lng": -77.03136,
       "address": "C. San Martín, Miraflores",
       "hours": "Lun–Sáb: 13:00 – 15:30 y 20:00 – 23:00",
       "rating": 4.7,
       "description": "Restaurante del chef Rafael Osterling. Cocina de autor con influencias mediterráneas y peruanas. Ambiente sofisticado y carta de vinos excepcional.",
-      "tip": "Ideal para cenas especiales. El cebiche de lenguado y los postres del chef son imperdibles. Reserva recomendada especialmente los fines de semana."
+      "tip": "Ideal para cenas especiales. El cebiche de lenguado y los postres del chef son imperdibles. Reserva recomendada especialmente los fines de semana.",
+      "hours_en": "Mon–Sat: 1:00 – 3:30 PM & 8:00 – 11:00 PM",
+      "description_en": "Restaurant by chef Rafael Osterling. Signature cuisine with Mediterranean and Peruvian influences. Sophisticated atmosphere and an exceptional wine list.",
+      "tip_en": "Ideal for special dinners. The sole ceviche and the chef's desserts are not to be missed. Reservations recommended, especially on weekends."
     },
     {
       "id": 43,
@@ -145,9 +240,11 @@
       "hours": "Lun–Dom: 12:00 – 00:00",
       "rating": 4.4,
       "description": "Restaurante icónico construido sobre el mar en el espigón de la Costa Verde. Especialidad en mariscos y cocina peruana con vistas panorámicas al Pacífico.",
-      "tip": "Una de las experiencias más únicas de Lima: cenar literalmente sobre el océano. El cebiche y el tiradito con vista al mar son memorables. Reserva imprescindible."
+      "tip": "Una de las experiencias más únicas de Lima: cenar literalmente sobre el océano. El cebiche y el tiradito con vista al mar son memorables. Reserva imprescindible.",
+      "hours_en": "Mon–Sun: 12:00 PM – 12:00 AM",
+      "description_en": "Iconic restaurant built over the sea on the Costa Verde pier. Specializes in seafood and Peruvian cuisine with panoramic Pacific views.",
+      "tip_en": "One of Lima's most unique experiences: dining literally over the ocean. The ceviche and tiradito with an ocean view are memorable. Reservations essential."
     },
-
     {
       "id": 44,
       "name": "Manolo",
@@ -158,7 +255,10 @@
       "hours": "Lun–Dom: 7:00 – 23:00",
       "rating": 4.5,
       "description": "Clásico limeño famoso por sus churros con chocolate caliente. Panadería y cafetería de tradición desde 1965.",
-      "tip": "Los churros con chocolate espeso son un must. Perfecto para desayunar o merendar. También tienen postres criollos como la mazamorra morada."
+      "tip": "Los churros con chocolate espeso son un must. Perfecto para desayunar o merendar. También tienen postres criollos como la mazamorra morada.",
+      "hours_en": "Mon–Sun: 7:00 AM – 11:00 PM",
+      "description_en": "A Lima classic famous for its churros with hot chocolate. Bakery and café with tradition dating back to 1965.",
+      "tip_en": "The churros with thick hot chocolate are a must. Perfect for breakfast or an afternoon snack. They also serve creole desserts like purple corn pudding (mazamorra morada)."
     },
     {
       "id": 45,
@@ -170,7 +270,10 @@
       "hours": "Lun–Dom: 7:00 – 22:00",
       "rating": 4.4,
       "description": "Panadería y cafetería de barrio con productos artesanales, panes recién horneados y una selección de pasteles y postres caseros.",
-      "tip": "Ideal para el desayuno o la merienda. Los panes y croissants frescos de la mañana son imperdibles."
+      "tip": "Ideal para el desayuno o la merienda. Los panes y croissants frescos de la mañana son imperdibles.",
+      "description_en": "Neighborhood bakery and café with artisan products, freshly baked bread and a selection of homemade cakes and desserts.",
+      "tip_en": "Great for breakfast or an afternoon snack. The fresh morning bread and croissants are a must.",
+      "hours_en": "Mon–Sun: 7:00 AM – 10:00 PM"
     },
     {
       "id": 46,
@@ -182,7 +285,10 @@
       "hours": "Lun–Dom: 6:30 – 22:30",
       "rating": 4.0,
       "description": "Sucursal Starbucks en el corazón de Miraflores. Buen WiFi y ambiente cómodo para trabajar o descansar.",
-      "tip": "Acepta pagos con tarjeta y tiene buena señal WiFi. Opción confiable si necesitas conexión y un café conocido."
+      "tip": "Acepta pagos con tarjeta y tiene buena señal WiFi. Opción confiable si necesitas conexión y un café conocido.",
+      "hours_en": "Mon–Sun: 6:30 AM – 10:30 PM",
+      "description_en": "Starbucks branch in the heart of Miraflores. Good WiFi and a comfortable setting to work or relax.",
+      "tip_en": "Accepts card payments and has good WiFi. A reliable option if you need connectivity and a familiar coffee."
     },
     {
       "id": 48,
@@ -194,21 +300,26 @@
       "hours": "Mar–Dom: 8:00 – 20:00",
       "rating": 4.7,
       "description": "Panadería artesanal de masa madre con los mejores panes de Lima. Cafetería boutique con ambiente acogedor y desayunos gourmet.",
-      "tip": "El pan de masa madre y los sándwiches artesanales son excepcionales. Llegar temprano; los panes se agotan. Uno de los mejores desayunos de Miraflores."
+      "tip": "El pan de masa madre y los sándwiches artesanales son excepcionales. Llegar temprano; los panes se agotan. Uno de los mejores desayunos de Miraflores.",
+      "hours_en": "Tue–Sun: 8:00 AM – 8:00 PM",
+      "description_en": "Artisan sourdough bakery with some of the best bread in Lima. Boutique café with a cozy atmosphere and gourmet breakfasts.",
+      "tip_en": "The sourdough bread and artisan sandwiches are exceptional. Go early — the bread sells out. One of the best breakfasts in Miraflores."
     },
     {
       "id": 49,
       "name": "Selectos Ibéricos",
       "category": "cafes",
       "lat": -12.123511,
-      "lng": -77.028110,
+      "lng": -77.02811,
       "address": "Miraflores, Lima",
       "hours": "Lun–Dom: 8:00 – 21:00",
       "rating": 4.3,
       "description": "Delicatessen y cafetería con productos ibéricos importados: jamones, quesos, vinos y embutidos españoles. Ambiente europeo en pleno Miraflores.",
-      "tip": "Ideal para una tabla de jamón ibérico y queso con vino. También tienen café de especialidad y desayunos continentales con productos importados."
+      "tip": "Ideal para una tabla de jamón ibérico y queso con vino. También tienen café de especialidad y desayunos continentales con productos importados.",
+      "hours_en": "Mon–Sun: 8:00 AM – 9:00 PM",
+      "description_en": "Deli and café with imported Iberian products: hams, cheeses, wines and Spanish cured meats. A European feel right in Miraflores.",
+      "tip_en": "Great for an Iberian ham and cheese board with wine. They also serve specialty coffee and continental breakfasts with imported products."
     },
-
     {
       "id": 54,
       "name": "Ripley",
@@ -219,7 +330,10 @@
       "hours": "Lun–Dom: 11:00 – 21:00",
       "rating": 4.0,
       "description": "Tienda por departamentos chilena con moda, electrónica, hogar y más. Una de las principales tiendas del distrito.",
-      "tip": "Buena opción para ropa de marca, maletas y artículos de viaje. Aceptan tarjetas internacionales."
+      "tip": "Buena opción para ropa de marca, maletas y artículos de viaje. Aceptan tarjetas internacionales.",
+      "hours_en": "Mon–Sun: 11:00 AM – 9:00 PM",
+      "description_en": "Chilean department store with fashion, electronics, home goods and more. One of the district's main stores.",
+      "tip_en": "A good option for branded clothing, luggage and travel gear. International cards accepted."
     },
     {
       "id": 55,
@@ -231,7 +345,10 @@
       "hours": "Lun–Dom: 11:00 – 21:00",
       "rating": 4.1,
       "description": "Tienda por departamentos con amplia oferta de moda, cosmética, electrónica y artículos para el hogar.",
-      "tip": "Tienen buena selección de maletas y accesorios de viaje. Aceptan tarjetas internacionales Visa y Mastercard."
+      "tip": "Tienen buena selección de maletas y accesorios de viaje. Aceptan tarjetas internacionales Visa y Mastercard.",
+      "hours_en": "Mon–Sun: 11:00 AM – 9:00 PM",
+      "description_en": "Department store with a wide range of fashion, cosmetics, electronics and home goods.",
+      "tip_en": "Good selection of luggage and travel accessories. Accepts international Visa and Mastercard."
     },
     {
       "id": 56,
@@ -243,9 +360,11 @@
       "hours": "Lun–Dom: 10:00 – 20:00",
       "rating": 4.3,
       "description": "Mercado artesanal con puestos de textiles de alpaca, plata, cerámica, recuerdos y artesanía peruana auténtica.",
-      "tip": "Buen lugar para souvenirs y artesanía peruana. Llevar soles en efectivo para mejores precios. Se puede regatear con respeto."
+      "tip": "Buen lugar para souvenirs y artesanía peruana. Llevar soles en efectivo para mejores precios. Se puede regatear con respeto.",
+      "hours_en": "Mon–Sun: 10:00 AM – 8:00 PM",
+      "description_en": "Craft market with stalls selling alpaca textiles, silver, ceramics, souvenirs and authentic Peruvian handicrafts.",
+      "tip_en": "A good place for souvenirs and Peruvian crafts. Bring soles in cash for better prices. Polite haggling is welcome."
     },
-
     {
       "id": 12,
       "name": "Larcomar",
@@ -256,7 +375,10 @@
       "hours": "Lun–Dom: 11:00 – 22:00 (restaurantes hasta 24:00)",
       "rating": 4.6,
       "description": "Centro comercial construido sobre el acantilado con vista al Pacífico. Tiendas de moda, cine, restaurantes y bares. Una de las mejores vistas de Lima.",
-      "tip": "El mirador exterior es gratis y vale la pena aunque no compren nada. Hay taxis autorizados en la salida principal. Llevar algo de abrigo: el viento del mar puede ser frío."
+      "tip": "El mirador exterior es gratis y vale la pena aunque no compren nada. Hay taxis autorizados en la salida principal. Llevar algo de abrigo: el viento del mar puede ser frío.",
+      "hours_en": "Mon–Sun: 11:00 AM – 10:00 PM (restaurants until midnight)",
+      "description_en": "Shopping center built into the clifftop with Pacific Ocean views. Fashion stores, a cinema, restaurants and bars. One of the best views in Lima.",
+      "tip_en": "The outdoor lookout is free and worth it even if you don't buy anything. Authorized taxis wait at the main exit. Bring a jacket — the sea breeze can be chilly."
     },
     {
       "id": 57,
@@ -268,19 +390,25 @@
       "hours": "Abierto todo el día",
       "rating": 4.7,
       "description": "Parque sobre los acantilados y zona oficial de despegue de parapente de Miraflores. Nombrado en honor al naturalista Antonio Raimondi.",
-      "tip": "Aquí operan los instructores de parapente tándem. No necesitas experiencia previa. Costo aproximado S/150–S/250."
+      "tip": "Aquí operan los instructores de parapente tándem. No necesitas experiencia previa. Costo aproximado S/150–S/250.",
+      "hours_en": "Open all day",
+      "description_en": "Clifftop park and Miraflores' official paragliding launch site. Named after naturalist Antonio Raimondi.",
+      "tip_en": "This is where the tandem paragliding instructors operate. No prior experience needed. Cost approx. S/150–S/250."
     },
     {
       "id": 58,
       "name": "Parque María Reiche",
       "category": "parques",
-      "lat": -12.115630,
+      "lat": -12.11563,
       "lng": -77.048596,
       "address": "Malecón de Miraflores",
       "hours": "Abierto todo el día",
       "rating": 4.4,
       "description": "Homenaje a la matemática y arqueóloga alemana que dedicó su vida al estudio de las Líneas de Nazca. Jardines con vista al mar.",
-      "tip": "Un lugar tranquilo para sentarse a leer o contemplar el Pacífico. Menos concurrido que el Parque del Amor."
+      "tip": "Un lugar tranquilo para sentarse a leer o contemplar el Pacífico. Menos concurrido que el Parque del Amor.",
+      "hours_en": "Open all day",
+      "description_en": "A tribute to the German mathematician and archaeologist who dedicated her life to studying the Nazca Lines. Gardens with ocean views.",
+      "tip_en": "A quiet spot to sit and read or take in the Pacific. Less crowded than Parque del Amor."
     },
     {
       "id": 59,
@@ -292,7 +420,10 @@
       "hours": "Abierto todo el día",
       "rating": 4.3,
       "description": "Donación de la ciudad italiana de Domodossola. Jardines de estilo europeo con esculturas y bancas sobre el acantilado.",
-      "tip": "Uno de los parques menos conocidos del malecón pero de los más bonitos. Perfecto para fotografía al atardecer."
+      "tip": "Uno de los parques menos conocidos del malecón pero de los más bonitos. Perfecto para fotografía al atardecer.",
+      "hours_en": "Open all day",
+      "description_en": "A gift from the Italian city of Domodossola. European-style gardens with sculptures and benches along the cliffside.",
+      "tip_en": "One of the lesser-known parks along the boardwalk but one of the prettiest. Perfect for sunset photos."
     },
     {
       "id": 60,
@@ -304,7 +435,10 @@
       "hours": "Abierto todo el día",
       "rating": 4.8,
       "description": "El parque más icónico de Miraflores. Alberga la escultura \"El Beso\" del artista peruano Víctor Delfín. Bancas de mosaico inspiradas en Gaudí con vista al Pacífico.",
-      "tip": "El mejor atardecer de Miraflores se ve desde aquí. Llega 30 minutos antes de la puesta del sol. Completamente gratuito."
+      "tip": "El mejor atardecer de Miraflores se ve desde aquí. Llega 30 minutos antes de la puesta del sol. Completamente gratuito.",
+      "hours_en": "Open all day",
+      "description_en": "Miraflores' most iconic park. Home to \"El Beso\" (The Kiss), a sculpture by Peruvian artist Víctor Delfín. Gaudí-inspired mosaic benches overlooking the Pacific.",
+      "tip_en": "The best sunset in Miraflores is seen from here. Arrive 30 minutes before sunset. Completely free."
     },
     {
       "id": 61,
@@ -316,7 +450,10 @@
       "hours": "Abierto todo el día",
       "rating": 4.5,
       "description": "Parque elevado sobre LarcoMar con vista panorámica al centro comercial y al Pacífico. Punto de conexión entre el malecón y LarcoMar.",
-      "tip": "Desde aquí puedes bajar directamente a LarcoMar por las escaleras o el ascensor. Vista espectacular de noche."
+      "tip": "Desde aquí puedes bajar directamente a LarcoMar por las escaleras o el ascensor. Vista espectacular de noche.",
+      "hours_en": "Open all day",
+      "description_en": "Elevated park above Larcomar with panoramic views of the mall and the Pacific. The link between the boardwalk and Larcomar.",
+      "tip_en": "You can head straight down to Larcomar from here via the stairs or elevator. Spectacular views at night."
     },
     {
       "id": 62,
@@ -328,9 +465,11 @@
       "hours": "Abierto todo el día",
       "rating": 4.2,
       "description": "Extremo sur del Malecón de Miraflores, límite con Barranco. Zona más tranquila y arbolada del circuito costero.",
-      "tip": "Desde aquí puedes continuar caminando hacia Barranco por el malecón — unos 20 minutos adicionales con vista al mar."
+      "tip": "Desde aquí puedes continuar caminando hacia Barranco por el malecón — unos 20 minutos adicionales con vista al mar.",
+      "hours_en": "Open all day",
+      "description_en": "The southern end of the Miraflores boardwalk, bordering Barranco. The quietest, most tree-lined stretch of the coastal circuit.",
+      "tip_en": "From here you can keep walking toward Barranco along the boardwalk — about 20 more minutes with ocean views."
     },
-
     {
       "id": 63,
       "name": "Parque Chino de Miraflores",
@@ -341,7 +480,10 @@
       "hours": "Abierto todo el día",
       "rating": 4.3,
       "description": "Parque con diseño de jardín chino donado por la comunidad chino-peruana. Pagoda, vegetación ornamental y vistas al Pacífico desde el acantilado.",
-      "tip": "Un rincón tranquilo y fotogénico del malecón. Menos conocido por los turistas, ideal para una pausa relajada con vista al mar."
+      "tip": "Un rincón tranquilo y fotogénico del malecón. Menos conocido por los turistas, ideal para una pausa relajada con vista al mar.",
+      "hours_en": "Open all day",
+      "description_en": "A park designed as a Chinese garden, donated by Lima's Chinese-Peruvian community. A pagoda, ornamental plants and clifftop Pacific views.",
+      "tip_en": "A quiet, photogenic corner of the boardwalk. Less known to tourists — ideal for a relaxed break with ocean views."
     },
     {
       "id": 64,
@@ -353,19 +495,25 @@
       "hours": "Abierto todo el día",
       "rating": 4.2,
       "description": "Parque en el extremo norte del malecón de Miraflores, en las cercanías del límite con San Isidro. Zona arbolada y tranquila sobre los acantilados.",
-      "tip": "Perfecto para escapar del bullicio del centro de Miraflores. Desde aquí se puede caminar por el malecón hacia el sur con vistas continuas al Pacífico."
+      "tip": "Perfecto para escapar del bullicio del centro de Miraflores. Desde aquí se puede caminar por el malecón hacia el sur con vistas continuas al Pacífico.",
+      "hours_en": "Open all day",
+      "description_en": "A park at the northern end of the Miraflores boardwalk, near the border with San Isidro. A quiet, tree-lined clifftop area.",
+      "tip_en": "Perfect for escaping the bustle of central Miraflores. From here you can walk south along the boardwalk with continuous Pacific views."
     },
     {
       "id": 65,
       "name": "Parque Kennedy",
       "category": "parques",
       "lat": -12.120095,
-      "lng": -77.029470,
+      "lng": -77.02947,
       "address": "Óvalo de Miraflores (Av. Larco con Diagonal)",
       "hours": "Abierto todo el día",
       "rating": 4.7,
       "description": "El corazón de Miraflores. Famoso por sus decenas de gatos callejeros adoptados por los vecinos. Los fines de semana hay feria de artesanías, shows folclóricos y artistas en vivo.",
-      "tip": "A pocos minutos del hotel. Los gatos son mansos y dejan que los acaricien. Los fines de semana hay shows de danza folclórica gratuitos en el anfiteatro."
+      "tip": "A pocos minutos del hotel. Los gatos son mansos y dejan que los acaricien. Los fines de semana hay shows de danza folclórica gratuitos en el anfiteatro.",
+      "hours_en": "Open all day",
+      "description_en": "The heart of Miraflores. Famous for dozens of stray cats adopted by the neighborhood. On weekends there's a craft fair, folk dance shows and live performers.",
+      "tip_en": "Just a few minutes from the hotel. The cats are tame and let you pet them. Free folk dance shows in the amphitheater on weekends."
     },
     {
       "id": 66,
@@ -377,9 +525,11 @@
       "hours": "Lun–Dom: 6:00 – 22:00",
       "rating": 4.3,
       "description": "Parque histórico que rinde homenaje a la Batalla de Miraflores (1881). Amplias áreas verdes, canchas deportivas y monumentos. Refugio tranquilo lejos del bullicio turístico.",
-      "tip": "Menos concurrido que el Parque Kennedy. Buena opción para correr, hacer picnic o simplemente descansar. Cuenta con servicios higiénicos públicos."
+      "tip": "Menos concurrido que el Parque Kennedy. Buena opción para correr, hacer picnic o simplemente descansar. Cuenta con servicios higiénicos públicos.",
+      "hours_en": "Mon–Sun: 6:00 AM – 10:00 PM",
+      "description_en": "Historic park honoring the Battle of Miraflores (1881). Large green areas, sports courts and monuments. A quiet retreat away from the tourist crowds.",
+      "tip_en": "Less crowded than Parque Kennedy. A good spot for jogging, a picnic or just relaxing. Public restrooms available."
     },
-
     {
       "id": 79,
       "name": "Huaca Pucllana",
@@ -393,7 +543,11 @@
       "rating": 4.8,
       "description": "Pirámide ceremonial de la Cultura Lima (200–700 d.C.) en pleno Miraflores. 1,500 años de historia declarada Patrimonio Cultural de la Nación.",
       "tip": "Visitas nocturnas jue–dom, iluminadas y mágicas. Tickets S/15. Guía incluido.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "hours_en": "Tue–Sun: 9:00 AM – 5:00 PM | Night visits Thu–Sun",
+      "description_en": "Ceremonial pyramid of the Lima Culture (200–700 AD) right in the middle of Miraflores. 1,500 years of history, declared a National Cultural Heritage site.",
+      "tip_en": "Night visits Thu–Sun are lit up and magical. Tickets S/15. Guide included.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296"
     },
     {
       "id": 80,
@@ -402,13 +556,17 @@
       "pinEmoji": "🎨",
       "foto": "",
       "lat": -12.113757,
-      "lng": -77.040770,
+      "lng": -77.04077,
       "address": "C. Retiro 160, Miraflores",
       "hours": "Lun–Vie: 10:00 – 17:00 | Solo con reserva previa",
       "rating": 4.8,
       "description": "Colección de textiles prehispánicos Chancay, Paracas e Inca. Experiencia íntima y poco masificada.",
       "tip": "Solo con reserva previa. Visita guiada de 1 hora en español e inglés.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "hours_en": "Mon–Fri: 10:00 AM – 5:00 PM | Reservation required",
+      "description_en": "Collection of pre-Hispanic Chancay, Paracas and Inca textiles. An intimate experience, rarely crowded.",
+      "tip_en": "Reservation required. 1-hour guided tour in Spanish and English.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296"
     },
     {
       "id": 81,
@@ -416,14 +574,18 @@
       "category": "ecoestelar",
       "pinEmoji": "🧶",
       "foto": "",
-      "lat": -12.116500,
+      "lat": -12.1165,
       "lng": -77.028157,
       "address": "Miraflores, Lima",
       "hours": "Lun–Dom: 10:00 – 20:00",
       "rating": 4.5,
       "description": "14 galerías con más de 1,500 artesanos de las 24 regiones del Perú. El centro artesanal más grande de Latinoamérica.",
       "tip": "A 2 cuadras del hotel. Souvenirs auténticos a precio justo.",
-      "normativa": "Ley N°29073 — Ley del Artesano"
+      "normativa": "Ley N°29073 — Ley del Artesano",
+      "hours_en": "Mon–Sun: 10:00 AM – 8:00 PM",
+      "description_en": "14 galleries with more than 1,500 artisans from Peru's 24 regions. The largest crafts center in Latin America.",
+      "tip_en": "Two blocks from the hotel. Authentic souvenirs at fair prices.",
+      "normativa_en": "Law No. 29073 — Artisan's Law"
     },
     {
       "id": 82,
@@ -431,14 +593,18 @@
       "category": "ecoestelar",
       "pinEmoji": "🪨",
       "foto": "",
-      "lat": -12.124650,
-      "lng": -77.033200,
+      "lat": -12.12465,
+      "lng": -77.0332,
       "address": "Bajada Balta, Miraflores",
       "hours": "Abierto todo el día",
       "rating": 4.6,
       "description": "Acceso histórico del siglo XIX a las playas de Miraflores. Empedrado original y restaurantes de mariscos al pie del acantilado.",
       "tip": "Baja hasta la orilla — vista única al Pacífico desde abajo del acantilado.",
-      "normativa": "Patrimonio histórico — Ordenanza N°452-MM Miraflores"
+      "normativa": "Patrimonio histórico — Ordenanza N°452-MM Miraflores",
+      "hours_en": "Open all day",
+      "description_en": "A 19th-century historic pathway down to the Miraflores beaches. Original cobblestones and seafood restaurants at the foot of the cliff.",
+      "tip_en": "Walk down to the shore — a unique view of the Pacific from below the cliff.",
+      "normativa_en": "Historic heritage — Ordinance No. 452-MM Miraflores"
     },
     {
       "id": 83,
@@ -452,7 +618,11 @@
       "rating": 4.6,
       "description": "Ejemplares de Ficus benjamina de más de 80 años. Corredor verde patrimonial sobre los acantilados del Pacífico.",
       "tip": "Los troncos más gruesos cerca del Parque Raimondi superan 1m de diámetro.",
-      "normativa": "Árboles patrimoniales — Ordenanza N°452-MM"
+      "normativa": "Árboles patrimoniales — Ordenanza N°452-MM",
+      "hours_en": "Open all day",
+      "description_en": "Ficus benjamina trees over 80 years old. A heritage green corridor along the Pacific cliffs.",
+      "tip_en": "The thickest trunks near Parque Raimondi are over 1m in diameter.",
+      "normativa_en": "Heritage trees — Ordinance No. 452-MM"
     },
     {
       "id": 84,
@@ -466,7 +636,11 @@
       "rating": 4.9,
       "description": "Zona de vuelo del Pelícano Peruano (Pelecanus thagus), especie emblemática de la Corriente de Humboldt.",
       "tip": "Mejor 7–10am. Vuelan en formación rasante sobre el Pacífico.",
-      "normativa": "Especie protegida — Ley N°29763"
+      "normativa": "Especie protegida — Ley N°29763",
+      "hours_en": "Best: 7:00 – 10:00 AM",
+      "description_en": "Flight zone of the Peruvian pelican (Pelecanus thagus), an emblematic species of the Humboldt Current.",
+      "tip_en": "Best 7–10 am. They fly in low formation over the Pacific.",
+      "normativa_en": "Protected species — Law No. 29763"
     },
     {
       "id": 85,
@@ -475,11 +649,14 @@
       "pinEmoji": "🥬",
       "foto": "",
       "lat": -12.127033,
-      "lng": -77.022260,
+      "lng": -77.02226,
       "hours": "Sábados: 8:00 – 14:00",
       "rating": 4.8,
       "description": "Mercado ecológico cada sábado 8am–2pm. Productores orgánicos, plantas nativas y productos naturales de Lima.",
-      "tip": "Llega antes de las 10am. Trae bolsa reutilizable."
+      "tip": "Llega antes de las 10am. Trae bolsa reutilizable.",
+      "hours_en": "Saturdays: 8:00 AM – 2:00 PM",
+      "description_en": "Organic market every Saturday, 8am–2pm. Organic growers, native plants and natural products from Lima.",
+      "tip_en": "Arrive before 10am. Bring a reusable bag."
     },
     {
       "id": 86,
@@ -493,7 +670,11 @@
       "rating": 4.7,
       "description": "4km de ciclovía frente al Pacífico. Alquiler de bicicletas disponible en varios puntos del malecón.",
       "tip": "Ideal temprano en la mañana. El hotel orienta sobre el punto de alquiler más cercano.",
-      "normativa": "Área paisajística — Ordenanza N°452-MM"
+      "normativa": "Área paisajística — Ordenanza N°452-MM",
+      "hours_en": "Open all day",
+      "description_en": "4km of bike path facing the Pacific. Bicycle rentals available at several points along the boardwalk.",
+      "tip_en": "Best early in the morning. The hotel can point you to the nearest rental spot.",
+      "normativa_en": "Landscape protected area — Ordinance No. 452-MM"
     },
     {
       "id": 87,
@@ -507,7 +688,11 @@
       "rating": 4.5,
       "description": "30,000 m2 de áreas verdes con vista al Pacífico. Nuevo pulmón verde de Miraflores sur.",
       "tip": "Menos conocido que el Malecón pero igual de impresionante. Perfecto para correr o yoga al aire libre.",
-      "normativa": "Área paisajística — Ordenanza N°452-MM"
+      "normativa": "Área paisajística — Ordenanza N°452-MM",
+      "hours_en": "Open all day",
+      "description_en": "30,000 m² of green space with Pacific views. Southern Miraflores' newest green lung.",
+      "tip_en": "Less known than the boardwalk but just as impressive. Perfect for running or outdoor yoga.",
+      "normativa_en": "Landscape protected area — Ordinance No. 452-MM"
     },
     {
       "id": 88,
@@ -515,15 +700,18 @@
       "category": "ecoestelar",
       "pinEmoji": "⚔️",
       "foto": "",
-      "lat": -12.125310,
+      "lat": -12.12531,
       "lng": -77.023068,
       "hours": "Lun–Dom: 9:00 – 17:00",
       "rating": 4.6,
       "description": "Monumento Nacional. Escenario de la Batalla de Miraflores del 15 de enero de 1881, Guerra del Pacífico.",
       "tip": "Entrada S/5 adultos, S/2 estudiantes. Historia viva de Lima poco conocida por turistas.",
-      "normativa": "Monumento Nacional — D.S. N°01-72-ED"
+      "normativa": "Monumento Nacional — D.S. N°01-72-ED",
+      "hours_en": "Mon–Sun: 9:00 AM – 5:00 PM",
+      "description_en": "National Monument. The site of the Battle of Miraflores, January 15, 1881, during the War of the Pacific.",
+      "tip_en": "Entrance S/5 adults, S/2 students. A little-known piece of living Lima history.",
+      "normativa_en": "National Monument — Supreme Decree No. 01-72-ED"
     },
-
     {
       "id": 69,
       "name": "Interbank – Av. Petit Thouars",
@@ -534,7 +722,10 @@
       "hours": "Lun–Vie: 9:00 – 18:00 | ATM: 24h",
       "rating": 4.0,
       "description": "Sucursal Interbank con ATM disponible las 24 horas. Red Global Net acepta tarjetas Visa, Mastercard y American Express.",
-      "tip": "A menos de 2 minutos caminando del hotel. Los cajeros Interbank suelen tener menos cola que BCP. Aceptan la mayoría de tarjetas internacionales."
+      "tip": "A menos de 2 minutos caminando del hotel. Los cajeros Interbank suelen tener menos cola que BCP. Aceptan la mayoría de tarjetas internacionales.",
+      "hours_en": "Mon–Fri: 9:00 AM – 6:00 PM | ATM: 24h",
+      "description_en": "Interbank branch with a 24-hour ATM. Global Net network accepts Visa, Mastercard and American Express cards.",
+      "tip_en": "Less than 2 minutes' walk from the hotel. Interbank ATMs usually have shorter lines than BCP. Accepts most international cards."
     },
     {
       "id": 70,
@@ -546,7 +737,10 @@
       "hours": "Lun–Vie: 9:00 – 18:00 | ATM: 24h",
       "rating": 4.0,
       "description": "Sucursal Interbank sobre Av. Benavides con ATM 24h de la red Global Net.",
-      "tip": "Buena opción para retiros rápidos. Aceptan la mayoría de tarjetas internacionales con disponibilidad en soles y dólares."
+      "tip": "Buena opción para retiros rápidos. Aceptan la mayoría de tarjetas internacionales con disponibilidad en soles y dólares.",
+      "hours_en": "Mon–Fri: 9:00 AM – 6:00 PM | ATM: 24h",
+      "description_en": "Interbank branch on Av. Benavides with a 24-hour Global Net ATM.",
+      "tip_en": "A good option for quick withdrawals. Accepts most international cards, with soles and dollars available."
     },
     {
       "id": 71,
@@ -558,7 +752,10 @@
       "hours": "Lun–Vie: 9:00 – 18:00 | ATM: 24h",
       "rating": 4.1,
       "description": "Sucursal del Banco de Crédito del Perú en Av. Larco. ATM disponible las 24 horas para retiros en soles y dólares.",
-      "tip": "El ATM funciona con Visa, Mastercard y American Express. Para cambio de divisas, mejor ir a una casa de cambio del Parque Kennedy."
+      "tip": "El ATM funciona con Visa, Mastercard y American Express. Para cambio de divisas, mejor ir a una casa de cambio del Parque Kennedy.",
+      "hours_en": "Mon–Fri: 9:00 AM – 6:00 PM | ATM: 24h",
+      "description_en": "Banco de Crédito del Perú branch on Av. Larco. 24-hour ATM for withdrawals in soles and dollars.",
+      "tip_en": "The ATM works with Visa, Mastercard and American Express. For currency exchange, a Parque Kennedy exchange house is a better option."
     },
     {
       "id": 72,
@@ -570,7 +767,10 @@
       "hours": "Lun–Vie: 9:00 – 18:00 | ATM: 24h",
       "rating": 4.0,
       "description": "Sucursal BCP al norte de Miraflores con ATM disponible las 24 horas.",
-      "tip": "ATM con servicio 24h en soles y dólares. Acepta tarjetas Visa, Mastercard y American Express."
+      "tip": "ATM con servicio 24h en soles y dólares. Acepta tarjetas Visa, Mastercard y American Express.",
+      "hours_en": "Mon–Fri: 9:00 AM – 6:00 PM | ATM: 24h",
+      "description_en": "BCP branch in northern Miraflores with a 24-hour ATM.",
+      "tip_en": "24-hour ATM service in soles and dollars. Accepts Visa, Mastercard and American Express."
     },
     {
       "id": 73,
@@ -582,9 +782,11 @@
       "hours": "Lun–Vie: 9:00 – 18:00 | ATM: 24h",
       "rating": 4.0,
       "description": "Sucursal BCP al sur de Miraflores con ATM disponible las 24 horas.",
-      "tip": "ATM con servicio 24h en soles y dólares. Acepta tarjetas Visa, Mastercard y American Express."
+      "tip": "ATM con servicio 24h en soles y dólares. Acepta tarjetas Visa, Mastercard y American Express.",
+      "hours_en": "Mon–Fri: 9:00 AM – 6:00 PM | ATM: 24h",
+      "description_en": "BCP branch in southern Miraflores with a 24-hour ATM.",
+      "tip_en": "24-hour ATM service in soles and dollars. Accepts Visa, Mastercard and American Express."
     },
-
     {
       "id": 31,
       "name": "Wong Óvalo Miraflores",
@@ -595,7 +797,10 @@
       "hours": "Lun–Dom: 8:00 – 22:00",
       "rating": 4.3,
       "description": "Supermercado Wong con excelente selección de productos gourmet, vinos peruanos e importados, y una gran sección de delikatessen.",
-      "tip": "Tienen una sección de comida preparada muy buena para llevar al hotel. Amplio parking disponible. Los vinos peruanos como Tacama o Santiago Queirolo son buen souvenir."
+      "tip": "Tienen una sección de comida preparada muy buena para llevar al hotel. Amplio parking disponible. Los vinos peruanos como Tacama o Santiago Queirolo son buen souvenir.",
+      "hours_en": "Mon–Sun: 8:00 AM – 10:00 PM",
+      "description_en": "Wong supermarket with an excellent selection of gourmet products, Peruvian and imported wines, and a large deli section.",
+      "tip_en": "They have a very good prepared-food section to take back to the hotel. Ample parking available. Peruvian wines like Tacama or Santiago Queirolo make good souvenirs."
     },
     {
       "id": 32,
@@ -607,7 +812,10 @@
       "hours": "Lun–Dom: 8:00 – 22:00",
       "rating": 4.4,
       "description": "Supermercado premium con la mejor selección de productos orgánicos, artesanales y gourmet de Lima. Panadería y charcutería propias.",
-      "tip": "El mejor supermercado de la zona para productos de calidad. Su panadería artesanal y la sección de quesos son excepcionales. Un poco más caro que Wong."
+      "tip": "El mejor supermercado de la zona para productos de calidad. Su panadería artesanal y la sección de quesos son excepcionales. Un poco más caro que Wong.",
+      "hours_en": "Mon–Sun: 8:00 AM – 10:00 PM",
+      "description_en": "Premium supermarket with Lima's best selection of organic, artisan and gourmet products. In-house bakery and deli.",
+      "tip_en": "The best supermarket in the area for quality products. Its artisan bakery and cheese section are exceptional. A bit pricier than Wong."
     },
     {
       "id": 1,
@@ -620,7 +828,10 @@
       "address": "Av. Petit Thouars 5444, Miraflores, Lima",
       "hours": "Recepción 24 horas",
       "description": "Hotel de 5 estrellas en el corazón de Miraflores. Habitaciones de lujo, restaurante, spa y todos los servicios para una estadía perfecta en Lima.",
-      "tip": "Nuestro equipo de recepción está disponible las 24 horas para orientarte sobre cualquier lugar de esta guía."
+      "tip": "Nuestro equipo de recepción está disponible las 24 horas para orientarte sobre cualquier lugar de esta guía.",
+      "hours_en": "24-hour front desk",
+      "description_en": "5-star hotel in the heart of Miraflores. Luxury rooms, restaurant, spa and every service for the perfect stay in Lima.",
+      "tip_en": "Our front desk team is available 24 hours to guide you to anywhere in this guide."
     },
     {
       "id": 37,
@@ -633,9 +844,10 @@
       "lng": -77.032079,
       "address": "Bellavista, Miraflores, Lima",
       "description": "Apartamentos amueblados de la marca Estelar en Miraflores. Opción ideal para estadías largas con todos los servicios del hotel.",
-      "tip": "Propiedad hermana del Hotel Estelar Miraflores. Consultar disponibilidad en recepción del hotel."
+      "tip": "Propiedad hermana del Hotel Estelar Miraflores. Consultar disponibilidad en recepción del hotel.",
+      "description_en": "Furnished apartments under the Estelar brand in Miraflores. Ideal for longer stays, with all the hotel's services.",
+      "tip_en": "A sister property of Hotel Estelar Miraflores. Ask at the hotel's front desk about availability."
     },
-
     {
       "id": 33,
       "name": "Metro Schell",
@@ -646,9 +858,11 @@
       "hours": "Lun–Dom: 8:00 – 22:00",
       "rating": 4.0,
       "description": "Supermercado Metro con precios accesibles. Buena opción para compras básicas, snacks y bebidas.",
-      "tip": "La opción más económica del área. Tienen agua mineral, snacks y artículos de uso diario a buen precio. A 7 minutos caminando del hotel."
+      "tip": "La opción más económica del área. Tienen agua mineral, snacks y artículos de uso diario a buen precio. A 7 minutos caminando del hotel.",
+      "hours_en": "Mon–Sun: 8:00 AM – 10:00 PM",
+      "description_en": "Metro supermarket with affordable prices. A good option for basics, snacks and drinks.",
+      "tip_en": "The most affordable option in the area. They have bottled water, snacks and everyday items at good prices. 7 minutes' walk from the hotel."
     },
-
     {
       "id": 89,
       "name": "Plaza Mayor de Lima",
@@ -663,7 +877,11 @@
       "rating": 4.8,
       "description": "Corazón del Centro Histórico declarado Patrimonio de la Humanidad UNESCO 1988. Catedral, Palacio de Gobierno y Municipalidad en una plaza impecable.",
       "tip": "El cambio de guardia en el Palacio de Gobierno es lunes a viernes a las 8am. Taxi desde hotel: S/25–35.",
-      "normativa": "Patrimonio Mundial UNESCO — 1988"
+      "normativa": "Patrimonio Mundial UNESCO — 1988",
+      "hours_en": "Open all day",
+      "description_en": "The heart of the Historic Center, declared a UNESCO World Heritage Site in 1988. The Cathedral, Government Palace and City Hall around a pristine plaza.",
+      "tip_en": "The changing of the guard at the Government Palace happens Monday to Friday at 8am. Taxi from the hotel: S/25–35.",
+      "normativa_en": "UNESCO World Heritage Site — 1988"
     },
     {
       "id": 90,
@@ -679,7 +897,11 @@
       "rating": 4.7,
       "description": "Construida sobre el templo inca de Huanacauri en 1535. Alberga los restos de Francisco Pizarro. Museo de Arte Religioso en su interior.",
       "tip": "El museo interior vale la visita. Tickets S/15. Abre 9am–5pm.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "hours_en": "Mon–Sat: 9:00 AM – 5:00 PM",
+      "description_en": "Built over the Inca temple of Huanacauri in 1535. Holds the remains of Francisco Pizarro. A Museum of Religious Art inside.",
+      "tip_en": "The museum inside is well worth the visit. Tickets S/15. Open 9am–5pm.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296"
     },
     {
       "id": 91,
@@ -695,7 +917,11 @@
       "rating": 4.8,
       "description": "Joya del barroco limeño construida en 1673. Catacumbas con 70,000 restos humanos, biblioteca colonial con 25,000 volúmenes del siglo XVII y claustros de azulejos sevillanos.",
       "tip": "Las catacumbas son lo más impactante. Tour guiado incluido en el ticket S/15. No apto para claustrofóbicos.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988",
+      "hours_en": "Mon–Sun: 9:00 AM – 5:30 PM",
+      "description_en": "A gem of Lima baroque architecture, built in 1673. Catacombs holding 70,000 human remains, a colonial library with 25,000 17th-century volumes, and cloisters lined with Seville tiles.",
+      "tip_en": "The catacombs are the most striking part. Guided tour included with the S/15 ticket. Not recommended for the claustrophobic.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296 | UNESCO World Heritage Site 1988"
     },
     {
       "id": 92,
@@ -711,7 +937,11 @@
       "rating": 4.6,
       "description": "Sede del Poder Ejecutivo peruano, construida sobre el palacio original de Francisco Pizarro. Fachada neoclásica francesa de 1938 frente a la Plaza Mayor.",
       "tip": "El cambio de guardia es lunes a viernes a las 8am. Espectáculo gratuito e imperdible frente a la Plaza Mayor.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "hours_en": "Exterior visits all day | Changing of the guard Mon–Fri 8:00 AM",
+      "description_en": "Seat of Peru's Executive Branch, built over Francisco Pizarro's original palace. Neoclassical French façade from 1938, facing the Plaza Mayor.",
+      "tip_en": "The changing of the guard happens Monday to Friday at 8am. A free, unmissable show in front of the Plaza Mayor.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296"
     },
     {
       "id": 93,
@@ -721,12 +951,15 @@
       "pinEmoji": "🥢",
       "foto": "",
       "lat": -12.050892,
-      "lng": -77.025820,
+      "lng": -77.02582,
       "address": "Calle Capón, Cercado de Lima",
       "hours": "Lun–Dom: 10:00 – 22:00",
       "rating": 4.6,
       "description": "El barrio chino más antiguo de Sudamérica, fundado en 1849. Calle Capón repleta de chifas auténticos y tiendas de productos asiáticos. 170 años de historia.",
-      "tip": "Almuerza en los chifas de las calles interiores — los más auténticos no tienen letrero en español. Pide el menú del día."
+      "tip": "Almuerza en los chifas de las calles interiores — los más auténticos no tienen letrero en español. Pide el menú del día.",
+      "description_en": "South America's oldest Chinatown, founded in 1849. Calle Capón is lined with authentic chifas and Asian grocery stores. 170 years of history.",
+      "tip_en": "Have lunch at the chifas on the side streets — the most authentic ones have no sign in Spanish. Ask for the menú del día.",
+      "hours_en": "Mon–Sun: 10:00 AM – 10:00 PM"
     },
     {
       "id": 94,
@@ -742,7 +975,11 @@
       "rating": 4.7,
       "description": "El museo de arte más importante del Perú. Arte colonial, republicano y contemporáneo en edificio de 1872 dentro del Parque de la Exposición.",
       "tip": "Domingos ingreso libre. Taxi desde hotel: S/20–25.",
-      "normativa": "Patrimonio Cultural — Ley N°28296"
+      "normativa": "Patrimonio Cultural — Ley N°28296",
+      "hours_en": "Tue–Sun: 10:00 AM – 8:00 PM",
+      "description_en": "Peru's most important art museum. Colonial, republican and contemporary art inside an 1872 building within Parque de la Exposición.",
+      "tip_en": "Free entry on Sundays. Taxi from the hotel: S/20–25.",
+      "normativa_en": "Cultural Heritage — Law No. 28296"
     },
     {
       "id": 95,
@@ -757,7 +994,10 @@
       "hours": "Mar–Dom: 15:00 – 22:30",
       "rating": 4.7,
       "description": "El parque de fuentes más grande del mundo según el Guinness. 13 fuentes interactivas con show de luz y sonido nocturno.",
-      "tip": "Show nocturno desde las 7:15pm. Tickets S/4 adultos. Imperdible para familias."
+      "tip": "Show nocturno desde las 7:15pm. Tickets S/4 adultos. Imperdible para familias.",
+      "hours_en": "Tue–Sun: 3:00 – 10:30 PM",
+      "description_en": "The world's largest fountain complex, according to Guinness World Records. 13 interactive fountains with a nighttime light-and-sound show.",
+      "tip_en": "Night show starts at 7:15pm. Tickets S/4 adults. Not to be missed with the family."
     },
     {
       "id": 96,
@@ -773,7 +1013,11 @@
       "rating": 4.6,
       "description": "Sede del Tribunal de la Santa Inquisición de Lima (1570–1820). Escenario histórico único con mazmorras y cámaras de tortura originales.",
       "tip": "Entrada gratuita. Uno de los museos más impactantes de Lima y menos conocido por turistas. Abre lunes a sábado.",
-      "normativa": "Patrimonio Cultural — Ley N°28296"
+      "normativa": "Patrimonio Cultural — Ley N°28296",
+      "hours_en": "Mon–Sat: 9:00 AM – 5:00 PM",
+      "description_en": "Former seat of the Holy Inquisition Tribunal of Lima (1570–1820). A unique historic setting with original dungeons and torture chambers.",
+      "tip_en": "Free entry. One of Lima's most striking and least-known museums. Open Monday to Saturday.",
+      "normativa_en": "Cultural Heritage — Law No. 28296"
     },
     {
       "id": 97,
@@ -789,7 +1033,11 @@
       "rating": 4.7,
       "description": "Hogar del Señor de los Milagros, pintura mural del siglo XVII que sobrevivió al terremoto de 1655. La procesión de octubre es la más grande de Latinoamérica.",
       "tip": "Fuera de octubre es un templo tranquilo y recogido. La imagen original es extraordinariamente emotiva.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988",
+      "hours_en": "Mon–Sun: 7:00 AM – 12:00 PM & 4:00 – 8:00 PM",
+      "description_en": "Home of the Lord of Miracles (Señor de los Milagros), a 17th-century mural painting that survived the 1655 earthquake. Its October procession is the largest in Latin America.",
+      "tip_en": "Outside October it's a quiet, contemplative church. The original image is extraordinarily moving.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296 | UNESCO World Heritage Site 1988"
     },
     {
       "id": 98,
@@ -805,9 +1053,12 @@
       "rating": 4.7,
       "description": "Pulmón verde del centro de Lima. Jardines, lago artificial, esculturas y el MALI en su interior. 72,000 m2 de áreas verdes históricas.",
       "tip": "Entrada libre. Perfecto para descansar entre museos. Los domingos hay actividades culturales gratuitas.",
-      "normativa": "Área verde patrimonial — Ley N°28296"
+      "normativa": "Área verde patrimonial — Ley N°28296",
+      "hours_en": "Tue–Sun: 9:00 AM – 6:00 PM",
+      "description_en": "Downtown Lima's green lung. Gardens, an artificial lake, sculptures and MALI inside its grounds. 72,000 m² of historic green space.",
+      "tip_en": "Free entry. Perfect for a break between museums. Free cultural activities on Sundays.",
+      "normativa_en": "Heritage green space — Law No. 28296"
     },
-
     {
       "id": 99,
       "name": "Convento Máximo de Nuestra Señora del Santísimo Rosario",
@@ -821,7 +1072,11 @@
       "rating": 4.6,
       "description": "Uno de los conventos más antiguos de Lima, fundado en 1535 por los dominicos. Alberga la imagen original de Santa Rosa de Lima, patrona de América.",
       "tip": "Menos visitado que San Francisco pero igual de impresionante. Entrada libre. Ambiente de recogimiento único.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988",
+      "hours_en": "Mon–Sun: 9:00 AM – 1:00 PM & 3:00 – 6:00 PM",
+      "description_en": "One of Lima's oldest convents, founded in 1535 by the Dominicans. Home to the original image of Saint Rose of Lima, patron saint of the Americas.",
+      "tip_en": "Less visited than San Francisco but just as impressive. Free entry. A uniquely reflective atmosphere.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296 | UNESCO World Heritage Site 1988"
     },
     {
       "id": 100,
@@ -830,14 +1085,18 @@
       "zona": "centro",
       "pinEmoji": "🎭",
       "foto": "",
-      "lat": -12.045340,
+      "lat": -12.04534,
       "lng": -77.034962,
       "address": "Jr. Ica 377, Cercado de Lima",
       "hours": "Según cartelera",
       "rating": 4.7,
       "description": "Principal teatro de Lima, inaugurado en 1920. Sede de ópera, ballet y conciertos de la Orquesta Sinfónica Nacional. Arquitectura neoclásica francesa restaurada.",
       "tip": "Revisa la cartelera en su web — entradas desde S/30. Una noche en el Municipal es una experiencia de lujo accesible.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "hours_en": "Check schedule",
+      "description_en": "Lima's main theater, opened in 1920. Home to opera, ballet and concerts by the National Symphony Orchestra. Restored French neoclassical architecture.",
+      "tip_en": "Check the schedule on their website — tickets from S/30. A night at the Municipal is an accessible taste of luxury.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296"
     },
     {
       "id": 101,
@@ -846,14 +1105,18 @@
       "zona": "centro",
       "pinEmoji": "🏠",
       "foto": "",
-      "lat": -12.044910,
+      "lat": -12.04491,
       "lng": -77.035005,
       "address": "Centro Histórico de Lima",
       "hours": "Exterior: todo el día",
       "rating": 4.4,
       "description": "Casa republicana del siglo XIX, ejemplo de la arquitectura señorial del Centro Histórico de Lima. Fachada con balcones tallados de madera, característicos de Lima colonial.",
       "tip": "Los balcones de madera tallada son únicos en el mundo — solo Lima tiene esta tradición arquitectónica.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988",
+      "hours_en": "Exterior: open all day",
+      "description_en": "A 19th-century republican house, an example of the stately architecture of Lima's Historic Center. A façade with carved wooden balconies, characteristic of colonial Lima.",
+      "tip_en": "The carved wooden balconies are one of a kind in the world — only Lima has this architectural tradition.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296 | UNESCO World Heritage Site 1988"
     },
     {
       "id": 102,
@@ -862,14 +1125,18 @@
       "zona": "centro",
       "pinEmoji": "🏟",
       "foto": "",
-      "lat": -12.045270,
+      "lat": -12.04527,
       "lng": -77.031002,
       "address": "Jr. de la Unión 300, Cercado de Lima",
       "hours": "Lun–Vie: 8:00 – 17:00",
       "rating": 4.5,
       "description": "Sede de la Municipalidad Metropolitana de Lima frente a la Plaza Mayor. Construido en 1944, alberga pinturas históricas y el famoso reloj de la fachada.",
       "tip": "La visita guiada gratuita incluye el salón de regidores y la pinacoteca. Solicitar en el ingreso principal.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "hours_en": "Mon–Fri: 8:00 AM – 5:00 PM",
+      "description_en": "Seat of the Metropolitan Municipality of Lima, facing the Plaza Mayor. Built in 1944, it houses historic paintings and the famous clock on its façade.",
+      "tip_en": "The free guided tour includes the council chamber and the picture gallery. Ask at the main entrance.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296"
     },
     {
       "id": 103,
@@ -878,14 +1145,18 @@
       "zona": "centro",
       "pinEmoji": "🧱",
       "foto": "",
-      "lat": -12.044410,
+      "lat": -12.04441,
       "lng": -77.027064,
       "address": "Jr. Amazonas, Cercado de Lima",
       "hours": "Mar–Dom: 9:00 – 17:00",
       "rating": 4.5,
       "description": "Museo sobre los restos de la Muralla de Lima construida en 1685 para proteger la ciudad de piratas. Parque arqueológico con vestigios originales visibles.",
       "tip": "Entrada libre. Uno de los sitios más subestimados del Centro Histórico. Vista espectacular al Río Rímac.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988",
+      "description_en": "A museum built around the remains of the Wall of Lima, constructed in 1685 to protect the city from pirates. An archaeological park with visible original remains.",
+      "tip_en": "Free entry. One of the most underrated sites in the Historic Center. Spectacular views of the Rímac River.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296 | UNESCO World Heritage Site 1988",
+      "hours_en": "Tue–Sun: 9:00 AM – 5:00 PM"
     },
     {
       "id": 104,
@@ -895,13 +1166,17 @@
       "pinEmoji": "🗽",
       "foto": "",
       "lat": -12.051591,
-      "lng": -77.034620,
+      "lng": -77.03462,
       "address": "Plaza San Martín, Cercado de Lima",
       "hours": "Abierto todo el día",
       "rating": 4.7,
       "description": "Plaza Art Nouveau inaugurada en 1921 para el centenario de la independencia. Estatua ecuestre del Libertador José de San Martín. Corazón comercial e histórico del centro.",
       "tip": "Desde aquí parte el Jirón de la Unión peatonal hasta la Plaza Mayor — el paseo histórico más emblemático de Lima.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "hours_en": "Open all day",
+      "description_en": "Art Nouveau plaza opened in 1921 to mark the centennial of independence. Equestrian statue of Liberator José de San Martín. The commercial and historic heart of downtown.",
+      "tip_en": "From here starts the pedestrian Jirón de la Unión, leading to the Plaza Mayor — Lima's most iconic historic walk.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296"
     },
     {
       "id": 105,
@@ -917,7 +1192,11 @@
       "rating": 4.5,
       "description": "Fundado en 1535, es el primer convento establecido en Lima. Iglesia barroca con una de las fachadas más elaboradas del Centro Histórico.",
       "tip": "La sacristía y el claustro interior son joyas poco fotografiadas. Entrada libre, ambiente tranquilo.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296 | Patrimonio Mundial UNESCO 1988",
+      "hours_en": "Mon–Sun: 8:00 AM – 12:00 PM & 4:00 – 7:00 PM",
+      "description_en": "Founded in 1535, the first convent established in Lima. A baroque church with one of the most elaborate façades in the Historic Center.",
+      "tip_en": "The sacristy and inner cloister are rarely photographed gems. Free entry, quiet atmosphere.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296 | UNESCO World Heritage Site 1988"
     },
     {
       "id": 106,
@@ -933,7 +1212,11 @@
       "rating": 4.5,
       "description": "Antigua estación de tren de Lima inaugurada en 1912, hoy museo y espacio cultural. Arquitectura republicana frente al Palacio de Gobierno y el Río Rímac.",
       "tip": "Uno de los edificios más fotografiados del Centro Histórico. Exposiciones temporales gratuitas en su interior.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "description_en": "Lima's former train station, opened in 1912, now a museum and cultural space. Republican architecture facing the Government Palace and the Rímac River.",
+      "tip_en": "One of the most photographed buildings in the Historic Center. Free temporary exhibitions inside.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296",
+      "hours_en": "Tue–Sun: 10:00 AM – 6:00 PM"
     },
     {
       "id": 107,
@@ -948,7 +1231,10 @@
       "hours": "Lun–Dom: 12:00 – 23:00",
       "rating": 4.6,
       "description": "Bar y piquería emblemática del centro de Lima. Especialista en pisco sour artesanal y cocina criolla limeña en ambiente de casona republicana.",
-      "tip": "El pisco sour aquí es de los mejores del centro. Ideal para una pausa cultural entre visitas. Ambiente auténtico sin turismo masivo."
+      "tip": "El pisco sour aquí es de los mejores del centro. Ideal para una pausa cultural entre visitas. Ambiente auténtico sin turismo masivo.",
+      "hours_en": "Mon–Sun: 12:00 PM – 11:00 PM",
+      "description_en": "An iconic bar and eatery in downtown Lima. Specializes in artisan pisco sour and Lima criollo cuisine, set in a republican-era house.",
+      "tip_en": "The pisco sour here is among the best downtown. A great cultural break between sights. An authentic spot, off the mass-tourism track."
     },
     {
       "id": 108,
@@ -964,9 +1250,12 @@
       "rating": 4.4,
       "description": "Casa donde vivió Bernardo O'Higgins, Libertador de Chile, durante su exilio en Lima (1823–1842). Patrimonio histórico binacional Perú-Chile.",
       "tip": "Poco conocida incluso por limeños. Una visita íntima cargada de historia sudamericana. Consultar horarios de visita.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "hours_en": "Check visiting hours",
+      "description_en": "The house where Bernardo O'Higgins, Liberator of Chile, lived during his exile in Lima (1823–1842). Binational Peru-Chile historic heritage.",
+      "tip_en": "Little known even to locals. An intimate visit steeped in South American history. Check visiting hours.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296"
     },
-
     {
       "id": 109,
       "name": "Mercado N°1 de Surquillo",
@@ -977,19 +1266,25 @@
       "hours": "Lun–Dom: 6:00 – 18:00",
       "rating": 4.5,
       "description": "Mercado tradicional de Lima con la mejor selección de frutas, verduras, carnes y productos frescos de temporada. Favorito de chefs y cocineros de la ciudad.",
-      "tip": "Llega temprano para los productos más frescos. Ideal para comprar frutas tropicales peruanas: lúcuma, chirimoya, maracuyá. A 10 minutos caminando del hotel."
+      "tip": "Llega temprano para los productos más frescos. Ideal para comprar frutas tropicales peruanas: lúcuma, chirimoya, maracuyá. A 10 minutos caminando del hotel.",
+      "description_en": "A traditional Lima market with the best selection of fruit, vegetables, meat and fresh seasonal produce. A favorite of the city's chefs and cooks.",
+      "tip_en": "Arrive early for the freshest produce. Great for buying Peruvian tropical fruit: lúcuma, chirimoya, passion fruit. 10 minutes' walk from the hotel.",
+      "hours_en": "Mon–Sun: 6:00 AM – 6:00 PM"
     },
     {
       "id": 110,
       "name": "Zona de Venta de Platería",
       "category": "mercados",
       "lat": -12.122828,
-      "lng": -77.026760,
+      "lng": -77.02676,
       "address": "Miraflores, Lima",
       "hours": "Lun–Sáb: 10:00 – 19:00",
       "rating": 4.3,
       "description": "Galería especializada en joyería y artesanía en plata peruana. Collares, pulseras y accesorios con diseños de iconografía precolombina y contemporánea.",
-      "tip": "La plata peruana es de alta ley y excelente precio comparado con otros países. Llevar soles en efectivo para mejores precios y posibilidad de regatear."
+      "tip": "La plata peruana es de alta ley y excelente precio comparado con otros países. Llevar soles en efectivo para mejores precios y posibilidad de regatear.",
+      "hours_en": "Mon–Sat: 10:00 AM – 7:00 PM",
+      "description_en": "Gallery specializing in Peruvian silver jewelry and crafts. Necklaces, bracelets and accessories with pre-Columbian and contemporary designs.",
+      "tip_en": "Peruvian silver is high-grade and excellent value compared to other countries. Bring soles in cash for better prices and room to haggle."
     },
     {
       "id": 111,
@@ -1004,7 +1299,11 @@
       "rating": 4.8,
       "description": "Colección de textiles prehispánicos Chancay, Paracas e Inca. Museo privado fundado por el empresario japonés Yoshitaro Amano. Experiencia íntima y poco masificada.",
       "tip": "Solo con reserva previa. Visita guiada de 1 hora en español e inglés. Uno de los museos más especiales de Lima.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "hours_en": "Mon–Fri: 10:00 AM – 5:00 PM | Reservation required",
+      "description_en": "Collection of pre-Hispanic Chancay, Paracas and Inca textiles. A private museum founded by Japanese businessman Yoshitaro Amano. An intimate experience, rarely crowded.",
+      "tip_en": "Reservation required. 1-hour guided tour in Spanish and English. One of Lima's most special museums.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296"
     },
     {
       "id": 112,
@@ -1016,19 +1315,25 @@
       "hours": "Lun–Dom: 8:00 – 22:00",
       "rating": 4.5,
       "description": "Mercado gourmet con puestos de cocina de autor, tapas, ceviches y propuestas gastronómicas de chefs emergentes de Lima. Ambiente moderno y animado.",
-      "tip": "Perfecto para un almuerzo variado probando varios puestos. Buen ambiente para ir en grupo y compartir platos de distintos estilos."
+      "tip": "Perfecto para un almuerzo variado probando varios puestos. Buen ambiente para ir en grupo y compartir platos de distintos estilos.",
+      "hours_en": "Mon–Sun: 8:00 AM – 10:00 PM",
+      "description_en": "Gourmet food market with stalls serving signature dishes, tapas, ceviche and creative food from Lima's emerging chefs. Modern, lively atmosphere.",
+      "tip_en": "Perfect for a varied lunch sampling several stalls. Great for groups who want to share dishes in different styles."
     },
     {
       "id": 113,
       "name": "Clínica Good Hope",
       "category": "hospitales",
-      "lat": -12.125410,
+      "lat": -12.12541,
       "lng": -77.034414,
       "address": "Av. Malecón Balta 956, Miraflores",
       "hours": "Emergencias: 24 horas | Consultas: Lun–Sáb 7:00 – 20:00",
       "rating": 4.4,
       "description": "Clínica privada de referencia en Miraflores con atención de emergencias las 24 horas. Cuenta con médicos bilingües y servicios completos de hospitalización.",
-      "tip": "La clínica más cercana al hotel. Para emergencias, marcar directamente al número de urgencias. Aceptan seguros internacionales y tarjetas de crédito."
+      "tip": "La clínica más cercana al hotel. Para emergencias, marcar directamente al número de urgencias. Aceptan seguros internacionales y tarjetas de crédito.",
+      "hours_en": "Emergencies: 24 hours | Appointments: Mon–Sat 7:00 AM – 8:00 PM",
+      "description_en": "A leading private clinic in Miraflores with 24-hour emergency care. Bilingual doctors and full hospitalization services.",
+      "tip_en": "The closest clinic to the hotel. For emergencies, call the urgent-care line directly. Accepts international insurance and credit cards."
     },
     {
       "id": 114,
@@ -1040,32 +1345,49 @@
       "hours": "Lun–Dom: 12:00 – 23:00",
       "rating": 4.6,
       "description": "Restaurante de cocina criolla limeña del chef Gastón Acurio. Especialidad en anticuchos, causa rellena, ceviche y los sabores más auténticos de la comida popular peruana.",
-      "tip": "Los anticuchos de corazón y la causa limeña son imperdibles. Ambiente informal y auténtico. Precio accesible para ser un restaurante Acurio."
+      "tip": "Los anticuchos de corazón y la causa limeña son imperdibles. Ambiente informal y auténtico. Precio accesible para ser un restaurante Acurio.",
+      "hours_en": "Mon–Sun: 12:00 PM – 11:00 PM",
+      "description_en": "Traditional Lima criollo restaurant by chef Gastón Acurio. Specializes in anticuchos, causa rellena, ceviche and the most authentic flavors of Peruvian home cooking.",
+      "tip_en": "The heart anticuchos and the Lima-style causa are must-haves. Casual, authentic atmosphere. Great value for an Acurio restaurant."
     },
-
     {
       "id": 115,
       "name": "City Tour Panorámico",
       "category": "tours",
       "zona": "tours",
       "pinEmoji": "🎫",
-      "fotos": ["", "", ""],
+      "fotos": [
+        "",
+        "",
+        ""
+      ],
       "lat": -12.0464,
       "lng": -77.0328,
       "address": "Punto de encuentro: Plaza Mayor, Centro Histórico",
       "hours": "Salidas: 9:30am y 2:30pm (martes a domingo)",
       "description": "Descubre lo mejor de Lima a través de un emocionante recorrido por el Centro Histórico de Lima: Plaza San Martín, Plaza Mayor y la estación de Desamparados.",
       "nota": "Consultar tarifas de entradas Convento Santo Domingo y sus Catacumbas",
-      "ruta": [1, 104, 89, 106]
+      "ruta": [
+        1,
+        104,
+        89,
+        106
+      ],
+      "hours_en": "Departures: 9:30am & 2:30pm (Tuesday to Sunday)",
+      "description_en": "Discover the best of Lima on an exciting tour through the Historic Center: Plaza San Martín, Plaza Mayor and Desamparados station.",
+      "nota_en": "Check ticket prices for Convento Santo Domingo and its Catacombs separately"
     },
-
     {
       "id": 116,
       "name": "Lima Colonial y Moderna",
       "category": "tours",
       "zona": "tours",
       "pinEmoji": "🏛",
-      "fotos": ["", "", ""],
+      "fotos": [
+        "",
+        "",
+        ""
+      ],
       "lat": -12.126681,
       "lng": -77.036658,
       "address": "Inicio: Parque del Amor, Miraflores",
@@ -1077,16 +1399,35 @@
         "Guía oficial de Turismo",
         "Asistencia permanente"
       ],
-      "ruta": [1, 60, 79, 117, 91, 89, 90]
+      "ruta": [
+        1,
+        60,
+        79,
+        117,
+        91,
+        89,
+        90
+      ],
+      "hours_en": "Departures: 8:40am & 1:40pm",
+      "description_en": "Starts at the iconic Parque del Amor in Miraflores, where you'll take in the Costa Verde coastline and the Pacific Ocean. Next, we pass Huaca Pucllana (panoramic view) and Parque El Olivar in San Isidro, then head to Lima's Historic Center, through its colonial streets and plazas. You'll visit the Convent of San Francisco de Asís and its Catacombs, the Plaza Mayor, the Government Palace, the Municipal Palace, the Archbishop's Palace and the Cathedral of Lima.",
+      "incluye_en": [
+        "Private transportation (hotel pickup and drop-off)",
+        "Entrance tickets to the Monastery of San Francisco de Asís and Catacombs",
+        "Official tour guide",
+        "Ongoing assistance"
+      ]
     },
-
     {
       "id": 118,
       "name": "Fuentes Mágicas de Lima",
       "category": "tours",
       "zona": "tours",
       "pinEmoji": "⛲",
-      "fotos": ["", "", ""],
+      "fotos": [
+        "",
+        "",
+        ""
+      ],
       "lat": -12.0731,
       "lng": -77.0365,
       "address": "Inicio: Hotel Estelar Miraflores",
@@ -1098,9 +1439,19 @@
         "Tickets de ingreso",
         "Asistencia permanente"
       ],
-      "ruta": [1, 95]
+      "ruta": [
+        1,
+        95
+      ],
+      "hours_en": "Departures: 5:40pm from Hotel Estelar Miraflores",
+      "description_en": "We'll visit the Circuito Mágico del Agua, listed in the Guinness Book of Records as the only place in the world with 13 interactive fountains. Enjoy a wonderful show of water, lights, images and music, full of magic and fantasy — the reason this park has become one of Lima's top tourist destinations.",
+      "incluye_en": [
+        "Private transportation (hotel pickup and drop-off)",
+        "Official tour guide",
+        "Entrance tickets",
+        "Ongoing assistance"
+      ]
     },
-
     {
       "id": 117,
       "name": "Parque El Olivar",
@@ -1111,9 +1462,11 @@
       "hours": "Abierto todo el día",
       "rating": 4.7,
       "description": "Bosque urbano declarado Monumento Nacional con más de 1,500 olivos traídos del Perú colonial. Patrimonio verde del tradicional distrito de San Isidro.",
-      "tip": "Los olivos más antiguos tienen más de 400 años. Ideal para un paseo tranquilo o descanso entre actividades turísticas."
+      "tip": "Los olivos más antiguos tienen más de 400 años. Ideal para un paseo tranquilo o descanso entre actividades turísticas.",
+      "hours_en": "Open all day",
+      "description_en": "Urban forest declared a National Monument, with over 1,500 olive trees brought over from colonial Peru. San Isidro's traditional green heritage.",
+      "tip_en": "The oldest olive trees are over 400 years old. Ideal for a quiet stroll or a break between sightseeing."
     },
-
     {
       "id": 119,
       "name": "Museo Larco",
@@ -1121,24 +1474,31 @@
       "pinEmoji": "🏺",
       "foto": "",
       "lat": -12.073068,
-      "lng": -77.063080,
+      "lng": -77.06308,
       "address": "Av. Bolívar 1515, Pueblo Libre, Lima",
       "hours": "Lun–Dom: 9:00 – 22:00",
       "rating": 4.9,
       "description": "Museo de arte precolombino dentro de una mansión virreinal del siglo XVIII. Alberga una de las colecciones más extraordinarias de América: oro, plata, joyas, coronas y máscaras. Famoso por su icónica colección de arte erótico prehispánico.",
       "tip": "El jardín y el café del museo son espectaculares. Abierto hasta las 10pm — visita nocturna altamente recomendada.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "hours_en": "Mon–Sun: 9:00 AM – 10:00 PM",
+      "description_en": "Museum of pre-Columbian art inside an 18th-century viceregal mansion. Home to one of the most extraordinary collections in the Americas: gold, silver, jewelry, crowns and masks. Famous for its iconic collection of pre-Hispanic erotic art.",
+      "tip_en": "The museum's garden and café are spectacular. Open until 10pm — a night visit is highly recommended.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296"
     },
-
     {
       "id": 120,
       "name": "Tour Museo Larco",
       "category": "tours",
       "zona": "tours",
       "pinEmoji": "🏺",
-      "fotos": ["", "", ""],
+      "fotos": [
+        "",
+        "",
+        ""
+      ],
       "lat": -12.073068,
-      "lng": -77.063080,
+      "lng": -77.06308,
       "address": "Inicio: Hotel Estelar Miraflores",
       "hours": "Salidas: 9:40am y 13:40pm desde el Hotel Estelar Miraflores",
       "description": "El tour arranca frente a algo imposible: una pirámide milenaria en medio de Miraflores. La Huaca Pucllana lleva 1,800 años en pie — construida por la cultura Lima, una de las civilizaciones pre-Incas más antiguas de la costa — y sigue ahí, desafiando los edificios que la rodean.\n\nDespués, entramos a otro mundo. El Museo Larco, dentro de una mansión virreinal del siglo XVIII, guarda una de las colecciones más extraordinarias de América: oro, plata, joyas, coronas y máscaras que los gobernantes del antiguo Perú usaron como símbolo de poder. Piezas trabajadas con una precisión que todavía sorprende.\n\nY para cerrar con todo: la icónica colección de arte erótico, que demuestra que los pueblos prehispánicos celebraban la vida sin ningún tabú.",
@@ -1148,9 +1508,20 @@
         "Guía oficial de turismo",
         "Asistencia permanente"
       ],
-      "ruta": [1, 79, 119]
+      "ruta": [
+        1,
+        79,
+        119
+      ],
+      "hours_en": "Departures: 9:40am & 1:40pm from Hotel Estelar Miraflores",
+      "description_en": "The tour starts with something almost impossible: an ancient pyramid in the middle of Miraflores. Huaca Pucllana has stood for 1,800 years — built by the Lima culture, one of the oldest pre-Inca civilizations on the coast — still standing, defying the buildings around it.\n\nNext, we step into another world. The Larco Museum, inside an 18th-century viceregal mansion, holds one of the most extraordinary collections in the Americas: gold, silver, jewelry, crowns and masks once worn by ancient Peru's rulers as symbols of power. Pieces crafted with a precision that still amazes.\n\nAnd to close it all off: the iconic erotic art collection, proof that pre-Hispanic peoples celebrated life without taboo.",
+      "incluye_en": [
+        "Private transportation (hotel pickup and drop-off)",
+        "Entrance tickets",
+        "Official tour guide",
+        "Ongoing assistance"
+      ]
     },
-
     {
       "id": 121,
       "name": "Barranco",
@@ -1163,9 +1534,11 @@
       "hours": "Abierto todo el día",
       "rating": 4.8,
       "description": "El barrio más bohemio de Lima. Plaza histórica, la Iglesia La Ermita asomada al acantilado y el Puente de los Suspiros — que según la leyenda cumple deseos si lo cruzas sin respirar. Centro cultural y artístico de Lima.",
-      "tip": "El Puente de los Suspiros es la foto más romántica de Lima. Visitar al atardecer para una luz perfecta."
+      "tip": "El Puente de los Suspiros es la foto más romántica de Lima. Visitar al atardecer para una luz perfecta.",
+      "hours_en": "Open all day",
+      "description_en": "Lima's most bohemian neighborhood. A historic plaza, the clifftop La Ermita church, and the Bridge of Sighs — which, legend says, grants wishes if you cross it without breathing. Lima's cultural and artistic hub.",
+      "tip_en": "The Bridge of Sighs is Lima's most romantic photo spot. Visit at sunset for the best light."
     },
-
     {
       "id": 122,
       "name": "Santuario de Pachacamac",
@@ -1173,15 +1546,18 @@
       "pinEmoji": "🏛",
       "foto": "",
       "lat": -12.255438,
-      "lng": -76.907830,
+      "lng": -76.90783,
       "address": "Lurín, Lima",
       "hours": "Mar–Dom: 9:00 – 17:00",
       "rating": 4.8,
       "description": "Durante más de 1,200 años fue el santuario más poderoso de la costa del Pacífico. Un oráculo al que reyes, sacerdotes y conquistadores venían a consultar el futuro. Museo de Sitio con el Tótem original de Pachacamac, ciudadela completa y vista al Pacífico desde el Templo del Sol.",
       "tip": "Llevar sombrero y agua — la ciudadela es extensa y hay mucho sol. La subida al Templo del Sol vale el esfuerzo por la vista panorámica.",
-      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296"
+      "normativa": "Patrimonio Cultural de la Nación — Ley N°28296",
+      "description_en": "For over 1,200 years it was the most powerful sanctuary on the Pacific coast. An oracle that kings, priests and conquistadors came to consult about the future. A Site Museum with the original Pachacamac Idol, a full citadel, and Pacific views from the Temple of the Sun.",
+      "tip_en": "Bring a hat and water — the citadel is extensive and there's plenty of sun. The climb to the Temple of the Sun is worth it for the panoramic view.",
+      "normativa_en": "National Cultural Heritage — Law No. 28296",
+      "hours_en": "Tue–Sun: 9:00 AM – 5:00 PM"
     },
-
     {
       "id": 124,
       "name": "Islas Palomino",
@@ -1195,18 +1571,25 @@
       "rating": 4.9,
       "description": "Ecosistema marino único en el mundo, alimentado por la Corriente de Humboldt. Colonia de lobos marinos, pingüinos de Humboldt, cormoranes y piqueros. Posibilidad de nadar junto a los lobos marinos.",
       "tip": "Llevar ropa de baño bajo el wetsuit. El agua del Pacífico está fría — el wetsuit lo compensa. Experiencia única imposible de olvidar.",
-      "normativa": "Área Marina Protegida — Reserva Nacional del Sistema de Islas e Islotes y Puntas Guaneras (RNSIIIPG)"
+      "normativa": "Área Marina Protegida — Reserva Nacional del Sistema de Islas e Islotes y Puntas Guaneras (RNSIIIPG)",
+      "hours_en": "Depends on tour departure",
+      "description_en": "A unique marine ecosystem in the world, fed by the Humboldt Current. A colony of sea lions, Humboldt penguins, cormorants and boobies. You can even swim alongside the sea lions.",
+      "tip_en": "Wear a swimsuit under the wetsuit. The Pacific water is cold — the wetsuit takes care of that. A once-in-a-lifetime experience.",
+      "normativa_en": "Protected Marine Area — National Reserve of the Islands, Islets and Guano Points System (RNSIIIPG)"
     },
-
     {
       "id": 123,
       "name": "Museo de Sitio Pachacamac",
       "category": "tours",
       "zona": "tours",
       "pinEmoji": "🗿",
-      "fotos": ["", "", ""],
+      "fotos": [
+        "",
+        "",
+        ""
+      ],
       "lat": -12.255438,
-      "lng": -76.907830,
+      "lng": -76.90783,
       "address": "Inicio: Hotel Estelar Miraflores",
       "hours": "Salidas: Martes a Domingo 8:40am desde el Hotel Estelar Miraflores",
       "description": "El tour empieza en Barranco, el barrio más bohemio de Lima. Plaza con historia, la Iglesia La Ermita asomada al acantilado y el Puente de los Suspiros — ese que, según la leyenda, cumple deseos si lo cruzas sin respirar.\n\nDespués, el salto en el tiempo es brutal.\n\nPachacamac no es solo un sitio arqueológico. Durante más de 1,200 años fue el santuario más poderoso de la costa del Pacífico — un oráculo al que reyes, sacerdotes y conquistadores venían a consultar el futuro y pedir clemencia ante los terremotos.\n\nPrimero el Museo de Sitio, donde el Tótem original de Pachacamac te espera en persona: una pieza de madera de más de mil años que los españoles no lograron destruir. Textiles, cerámica, objetos que cuentan lo que los libros no alcanzan.\n\nLuego la ciudadela entera: el Templo Acllawasi, el Templo Viejo, el Templo Pintado, pirámides, calles que todavía guardan la huella de quienes las caminaron hace 1,800 años.\n\nY al final, la subida al Templo del Sol. Desde arriba, el Pacífico de un lado y la civilización de otro. Una vista que no necesita explicación.",
@@ -1216,16 +1599,31 @@
         "Guía oficial de Turismo",
         "Asistencia permanente"
       ],
-      "ruta": [1, 121, 122]
+      "ruta": [
+        1,
+        121,
+        122
+      ],
+      "hours_en": "Departures: Tuesday to Sunday 8:40am from Hotel Estelar Miraflores",
+      "description_en": "The tour begins in Barranco, Lima's most bohemian neighborhood. A historic plaza, the clifftop La Ermita church, and the Bridge of Sighs — which, legend says, grants wishes if you cross it without breathing.\n\nThen comes a dramatic leap through time.\n\nPachacamac isn't just an archaeological site. For over 1,200 years it was the most powerful sanctuary on the Pacific coast — an oracle that kings, priests and conquistadors came to consult about the future and to seek mercy from earthquakes.\n\nFirst, the Site Museum, where the original Pachacamac Idol awaits you in person: a wooden piece over a thousand years old that the Spanish failed to destroy. Textiles, pottery, objects that tell stories the books can't.\n\nThen the full citadel: the Acllawasi Temple, the Old Temple, the Painted Temple, pyramids, streets that still hold the footsteps of those who walked them 1,800 years ago.\n\nAnd finally, the climb to the Temple of the Sun. From the top, the Pacific on one side and civilization on the other. A view that needs no explanation.",
+      "incluye_en": [
+        "Private transportation (hotel pickup and drop-off)",
+        "Entrance tickets",
+        "Official tour guide",
+        "Ongoing assistance"
+      ]
     },
-
     {
       "id": 125,
       "name": "Islas Palomino",
       "category": "tours",
       "zona": "tours",
       "pinEmoji": "🦭",
-      "fotos": ["img/tours/Palomino 01.webp", "img/tours/Palomino 02.webp", "img/tours/Palomino 03.webp"],
+      "fotos": [
+        "img/tours/Palomino 01.webp",
+        "img/tours/Palomino 02.webp",
+        "img/tours/Palomino 03.webp"
+      ],
       "lat": -12.128562505454575,
       "lng": -77.23333306534512,
       "address": "Inicio: Hotel Estelar Miraflores",
@@ -1237,8 +1635,18 @@
         "Nadar con lobos marinos",
         "Botella con agua"
       ],
-      "ruta": [1, 124]
+      "ruta": [
+        1,
+        124
+      ],
+      "description_en": "It all starts in Callao, where Peru's naval history is on full display: warships, merchant vessels and the Abtao submarine — one of the few historic submarines in South America you can actually board.\n\nBut the best part is in the water.\n\nYou'll set sail toward a marine ecosystem found nowhere else in the world, fed by the Humboldt Current. And yes — you can get in the water and swim alongside sea lions. Not watch them from afar. Right next to them.\n\nAs you sail, the wildlife puts on a show: Humboldt penguins that shouldn't exist at this tropical latitude but somehow do, cormorants skimming low over the water, boobies diving like arrows from the sky.\n\nAlong the way, the islands of El Frontón, San Lorenzo and Cabinzas — wild territory minutes from downtown Lima, where the city disappears and only the Pacific remains.",
+      "incluye_en": [
+        "Private transportation (hotel pickup and drop-off)",
+        "Life jacket and wetsuit",
+        "Official tour guide",
+        "Swimming with sea lions",
+        "Bottled water"
+      ]
     }
-
   ]
 }

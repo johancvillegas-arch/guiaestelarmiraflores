@@ -6,6 +6,7 @@ let activeZona     = 'miraflores';
 let activeLang     = 'es';
 let activeTour     = null;
 let markerLayer = {};   // { id: { marker, place } }
+let currentPlace = null; // lugar mostrado actualmente en el panel de detalle (si hay uno abierto)
 
 const i18n = {
   es: {
@@ -17,6 +18,9 @@ const i18n = {
     allCategories: 'Todos',
     zonaTabs: { miraflores: 'Miraflores', centro: 'Centro Histórico', tours: 'Tours Lima' },
     pdfTab: 'Actividades del mes',
+    getDirections: 'Cómo llegar',
+    receptionistTip: 'Consejo del Recepcionista',
+    includes: 'Incluye',
     categories: {
       estelar:        'Nuestros Hoteles',
       restaurantes:   'Restaurantes',
@@ -43,6 +47,9 @@ const i18n = {
     allCategories: 'All',
     zonaTabs: { miraflores: 'Miraflores', centro: 'Downtown', tours: 'Lima Tours' },
     pdfTab: 'Monthly Activities',
+    getDirections: 'Get Directions',
+    receptionistTip: "Receptionist's Tip",
+    includes: 'Includes',
     categories: {
       estelar:        'Our Hotels',
       restaurantes:   'Restaurants',
@@ -83,11 +90,22 @@ function applyLang() {
   if (allLabel) allLabel.textContent = t.allCategories;
 
   if (placesData && activeZona !== 'tours') buildSidebar();
+  if (currentPlace) showDetail(currentPlace);
 }
 
 function toggleLang() {
   activeLang = activeLang === 'es' ? 'en' : 'es';
   applyLang();
+}
+
+// Devuelve el campo de un lugar en el idioma activo (con sufijo _en),
+// cayendo al español si no existe traducción para ese campo.
+function tField(place, field) {
+  if (activeLang === 'en') {
+    const enValue = place[field + '_en'];
+    if (enValue !== undefined) return enValue;
+  }
+  return place[field];
 }
 
 // ── Bootstrap ──────────────────────────────────────────────────
@@ -302,6 +320,7 @@ function filterMarkers() {
 
 // ── Panel de detalle ───────────────────────────────────────────
 function showDetail(place) {
+  currentPlace = place;
   const cat   = placesData.categories.find(c => c.id === place.category);
   const dist  = haversine(
     placesData.hotel.lat, placesData.hotel.lng,
@@ -333,34 +352,43 @@ function showDetail(place) {
          </div>`;
   }
 
+  const t = i18n[activeLang];
+  const catLabel   = t.categories[cat.id] || cat.label;
+  const hours      = tField(place, 'hours');
+  const normativa  = tField(place, 'normativa');
+  const description = tField(place, 'description');
+  const tip        = tField(place, 'tip');
+  const nota       = tField(place, 'nota');
+  const incluye    = (activeLang === 'en' && place.incluye_en) ? place.incluye_en : place.incluye;
+
   document.getElementById('panel-content').innerHTML = `
     ${photoHtml}
     <div class="panel-name">${place.name}</div>
     <div class="panel-meta">
-      <span class="panel-badge" style="background:${cat.color}">${cat.emoji} ${cat.label}</span>
+      <span class="panel-badge" style="background:${cat.color}">${cat.emoji} ${catLabel}</span>
       <span class="panel-distance">🚶 ${distTxt} · ~${walk} min</span>
       ${stars ? `<span class="panel-rating">${stars} ${place.rating}</span>` : ''}
     </div>
     ${place.address  ? `<div class="panel-row">📍 <span>${place.address}</span></div>`  : ''}
-    ${place.hours    ? `<div class="panel-row">🕐 <span>${place.hours}</span></div>`    : ''}
-    ${place.normativa ? `<div class="panel-row panel-normativa">⚖️ <span>${place.normativa}</span></div>` : ''}
-    ${place.description ? `<p class="panel-desc">${place.description}</p>` : ''}
-    ${place.tip ? `
+    ${hours    ? `<div class="panel-row">🕐 <span>${hours}</span></div>`    : ''}
+    ${normativa ? `<div class="panel-row panel-normativa">⚖️ <span>${normativa}</span></div>` : ''}
+    ${description ? `<p class="panel-desc">${description}</p>` : ''}
+    ${tip ? `
       <div class="panel-tip">
-        <div class="tip-label">💬 Consejo del Recepcionista</div>
-        <div class="tip-text">${place.tip}</div>
+        <div class="tip-label">💬 ${t.receptionistTip}</div>
+        <div class="tip-text">${tip}</div>
       </div>` : ''}
-    ${place.incluye && place.incluye.length ? `
+    ${incluye && incluye.length ? `
       <div class="panel-incluye">
-        <div class="incluye-label">✅ Incluye</div>
+        <div class="incluye-label">✅ ${t.includes}</div>
         <ul class="incluye-list">
-          ${place.incluye.map(item => `<li>${item}</li>`).join('')}
+          ${incluye.map(item => `<li>${item}</li>`).join('')}
         </ul>
       </div>` : ''}
-    ${place.nota ? `<div class="panel-nota">* ${place.nota}</div>` : ''}
+    ${nota ? `<div class="panel-nota">* ${nota}</div>` : ''}
     <div class="panel-actions">
       <a href="${mapsUrl}" target="_blank" rel="noopener" class="btn-maps">
-        🚶 Cómo llegar
+        🚶 ${t.getDirections}
       </a>
     </div>`;
 
@@ -379,6 +407,7 @@ function showDetail(place) {
 }
 
 function closePanel() {
+  currentPlace = null;
   const panel   = document.getElementById('detail-panel');
   const overlay = document.getElementById('overlay');
   panel.classList.remove('visible');
