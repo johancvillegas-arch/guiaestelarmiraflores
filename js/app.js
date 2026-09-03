@@ -385,7 +385,7 @@ function switchZona(zona) {
 function bindEvents() {
   document.getElementById('lang-toggle').addEventListener('click', toggleLang);
 
-  document.querySelectorAll('.zona-tab')
+  document.querySelectorAll('.zona-tab[data-zona]')
     .forEach(t => t.addEventListener('click', () => switchZona(t.dataset.zona)));
 
   document.querySelector('[data-category="all"]').addEventListener('click', () => selectCategory('all'));
