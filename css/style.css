@@ -186,9 +186,6 @@ html, body {
   transition: color var(--transition), border-color var(--transition), background var(--transition);
   border-radius: 6px 6px 0 0;
 }
-.zona-tab--pdf {
-  margin-left: auto;
-}
 .zona-tab:hover:not(.active) {
   color: rgba(255, 255, 255, 0.85);
   background: rgba(255, 255, 255, 0.05);
