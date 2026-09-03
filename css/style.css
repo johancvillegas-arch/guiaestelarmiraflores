@@ -59,6 +59,7 @@ html, body {
 
 /* ── Header ────────────────────────────────────────────────── */
 #header {
+  position: relative;
   height: var(--header-h);
   background: var(--primary-dark);
   display: flex;
@@ -67,7 +68,7 @@ html, body {
   padding: 0 1rem;
   border-bottom: 1px solid rgba(201, 168, 76, 0.25);
   flex-shrink: 0;
-  z-index: 100;
+  z-index: 600;
   box-shadow: 0 2px 12px rgba(0,0,0,0.3);
 }
 
@@ -160,6 +161,8 @@ html, body {
 
 /* ── Zona tabs ─────────────────────────────────────────────── */
 #zona-tabs {
+  position: relative;
+  z-index: 600;
   display: flex;
   background: var(--primary-dark);
   border-bottom: 1px solid rgba(201, 168, 76, 0.18);
