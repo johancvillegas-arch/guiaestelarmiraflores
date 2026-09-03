@@ -13,12 +13,52 @@ const i18n = {
     subtitle:    'Miraflores · Lima, Perú',
     metaTitle:   'Mapa Turístico de Miraflores y Centro de Lima · Eco Estelar',
     description: 'Guía interactiva sostenible del Hotel Estelar Miraflores',
+    searchPlaceholder: 'Buscar lugar…',
+    allCategories: 'Todos',
+    zonaTabs: { miraflores: 'Miraflores', centro: 'Centro Histórico', tours: 'Tours Lima' },
+    pdfTab: 'Actividades del mes',
+    categories: {
+      estelar:        'Nuestros Hoteles',
+      restaurantes:   'Restaurantes',
+      cafes:          'Cafés',
+      compras:        'Compras',
+      parques:        'Parques',
+      ecoestelar:     'EcoEstelar',
+      bancos:         'Bancos / ATM',
+      supermercados:  'Supermercados',
+      turismo:        'Turismo',
+      gastronomia:    'Gastronomía',
+      cultura:        'Cultura',
+      mercados:       'Mercados',
+      hospitales:     'Hospitales',
+      tours:          'Tours Lima',
+    },
   },
   en: {
     title:       'Tourist Map of Miraflores & Downtown Lima · Eco Estelar',
     subtitle:    'Miraflores · Lima, Peru',
     metaTitle:   'Tourist Map of Miraflores & Downtown Lima · Eco Estelar',
     description: 'Sustainable interactive guide by Hotel Estelar Miraflores',
+    searchPlaceholder: 'Search a place…',
+    allCategories: 'All',
+    zonaTabs: { miraflores: 'Miraflores', centro: 'Downtown', tours: 'Lima Tours' },
+    pdfTab: 'Monthly Activities',
+    categories: {
+      estelar:        'Our Hotels',
+      restaurantes:   'Restaurants',
+      cafes:          'Cafés',
+      compras:        'Shopping',
+      parques:        'Parks',
+      ecoestelar:     'EcoEstelar',
+      bancos:         'Banks / ATM',
+      supermercados:  'Supermarkets',
+      turismo:        'Tourism',
+      gastronomia:    'Cuisine',
+      cultura:        'Culture',
+      mercados:       'Markets',
+      hospitales:     'Hospitals',
+      tours:          'Lima Tours',
+    },
   },
 };
 
@@ -29,6 +69,20 @@ function applyLang() {
   document.title = t.metaTitle;
   document.querySelector('meta[name="description"]').setAttribute('content', t.description);
   document.getElementById('lang-toggle').textContent  = activeLang === 'es' ? 'EN' : 'ES';
+  document.getElementById('search-input').placeholder = t.searchPlaceholder;
+
+  document.querySelectorAll('.zona-tab[data-zona]').forEach(tab => {
+    const label = t.zonaTabs[tab.dataset.zona];
+    if (label) tab.textContent = label;
+  });
+
+  const pdfTab = document.querySelector('.zona-tab--pdf');
+  if (pdfTab) pdfTab.textContent = t.pdfTab;
+
+  const allLabel = document.querySelector('[data-category="all"] .cat-label');
+  if (allLabel) allLabel.textContent = t.allCategories;
+
+  if (placesData && activeZona !== 'tours') buildSidebar();
 }
 
 function toggleLang() {
@@ -150,15 +204,16 @@ function buildSidebar() {
     ).length;
     if (count === 0) return;
 
+    const label = i18n[activeLang].categories[cat.id] || cat.label;
     const btn = document.createElement('button');
     btn.className = 'category-btn' + (activeCategory === cat.id ? ' active' : '');
     btn.dataset.category = cat.id;
     const iconHtml = cat.iconImg
-      ? `<img src="${cat.iconImg}" class="cat-icon-img" alt="${cat.label}">`
+      ? `<img src="${cat.iconImg}" class="cat-icon-img" alt="${label}">`
       : `<span class="cat-emoji">${cat.emoji}</span>`;
     btn.innerHTML = `
       ${iconHtml}
-      <span class="cat-label">${cat.label}</span>
+      <span class="cat-label">${label}</span>
       <span class="cat-count">${count}</span>`;
     btn.addEventListener('click', () => selectCategory(cat.id));
     container.appendChild(btn);
